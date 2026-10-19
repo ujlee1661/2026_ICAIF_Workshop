@@ -1,0 +1,8 @@
+{
+  "checkpoint_status": "paused",
+  "error": "",
+  "error_type": "CancelledError",
+  "event_id": "2026-07-10/AM",
+  "restart_command": "rerun the identical command with --resume and --run-dir /Users/leeyujeong/2026_AICP_ver5.0/outputs/experiments/ADVISOR_GENERAL_REPEAT_20261002_TO_20260710",
+  "status": "paused"
+}

@@ -1,0 +1,128 @@
+{
+  "parent_run": "ADVISOR_MAIN_FROM_SCRATCH_PARENT_20260923",
+  "no_advice_branch": "ADVISOR_MAIN_CONT_OFF_20260925",
+  "simulation_window": [
+    "2026-02-27",
+    "2026-07-09"
+  ],
+  "evaluation_window": [
+    "2026-03-05",
+    "2026-07-09"
+  ],
+  "burn_in_dates": [
+    "2026-02-27",
+    "2026-03-03",
+    "2026-03-04"
+  ],
+  "canonical_fill_count": 18000,
+  "evaluation_days": 87,
+  "first_lagged_observation_date": "2026-03-04",
+  "publication_status": "provisional; not a replacement for the run integrity gate",
+  "dimensions": {
+    "value": {
+      "actual_buy_days": 54,
+      "actual_sell_days": 33,
+      "pearson_r": 0.6170665544534661,
+      "metrics": {
+        "LLM": {
+          "matches": 70,
+          "agreement_percent": 80.45977011494253,
+          "balanced_accuracy_percent": 82.49158249158248,
+          "buy_recall_percent": 74.07407407407408,
+          "sell_recall_percent": 90.9090909090909,
+          "flat_predictions": 0
+        },
+        "Always net buy": {
+          "matches": 54,
+          "agreement_percent": 62.06896551724138,
+          "balanced_accuracy_percent": 50.0,
+          "buy_recall_percent": 100.0,
+          "sell_recall_percent": 0.0,
+          "flat_predictions": 0
+        },
+        "Lagged return": {
+          "matches": 50,
+          "agreement_percent": 57.47126436781609,
+          "balanced_accuracy_percent": 57.49158249158249,
+          "buy_recall_percent": 57.407407407407405,
+          "sell_recall_percent": 57.57575757575758,
+          "flat_predictions": 0
+        },
+        "Contrarian return": {
+          "matches": 37,
+          "agreement_percent": 42.5287356321839,
+          "balanced_accuracy_percent": 42.50841750841751,
+          "buy_recall_percent": 42.592592592592595,
+          "sell_recall_percent": 42.42424242424242,
+          "flat_predictions": 0
+        },
+        "Lagged flow": {
+          "matches": 40,
+          "agreement_percent": 45.97701149425287,
+          "balanced_accuracy_percent": 42.340067340067336,
+          "buy_recall_percent": 57.407407407407405,
+          "sell_recall_percent": 27.27272727272727,
+          "flat_predictions": 0
+        }
+      }
+    },
+    "volume": {
+      "actual_buy_days": 54,
+      "actual_sell_days": 33,
+      "pearson_r": 0.5767045101500694,
+      "metrics": {
+        "LLM": {
+          "matches": 70,
+          "agreement_percent": 80.45977011494253,
+          "balanced_accuracy_percent": 82.49158249158248,
+          "buy_recall_percent": 74.07407407407408,
+          "sell_recall_percent": 90.9090909090909,
+          "flat_predictions": 0
+        },
+        "Always net buy": {
+          "matches": 54,
+          "agreement_percent": 62.06896551724138,
+          "balanced_accuracy_percent": 50.0,
+          "buy_recall_percent": 100.0,
+          "sell_recall_percent": 0.0,
+          "flat_predictions": 0
+        },
+        "Lagged return": {
+          "matches": 50,
+          "agreement_percent": 57.47126436781609,
+          "balanced_accuracy_percent": 57.49158249158249,
+          "buy_recall_percent": 57.407407407407405,
+          "sell_recall_percent": 57.57575757575758,
+          "flat_predictions": 0
+        },
+        "Contrarian return": {
+          "matches": 37,
+          "agreement_percent": 42.5287356321839,
+          "balanced_accuracy_percent": 42.50841750841751,
+          "buy_recall_percent": 42.592592592592595,
+          "sell_recall_percent": 42.42424242424242,
+          "flat_predictions": 0
+        },
+        "Lagged flow": {
+          "matches": 40,
+          "agreement_percent": 45.97701149425287,
+          "balanced_accuracy_percent": 42.340067340067336,
+          "buy_recall_percent": 57.407407407407405,
+          "sell_recall_percent": 27.27272727272727,
+          "flat_predictions": 0
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "outputs/experiments/ADVISOR_MAIN_FROM_SCRATCH_PARENT_20260923/run_metadata.json": "a622deaabac51b6821c964eb5dc1c23764d050ef43090e325b9bee11cf6341e4",
+    "outputs/experiments/ADVISOR_MAIN_FROM_SCRATCH_PARENT_20260923/exchange_fills.csv": "c122fbaf6b71c350505f567be32c4a688a38d1ec4f515ec8b93ed3f3f4203f67",
+    "outputs/experiments/ADVISOR_MAIN_CONT_OFF_20260925/run_metadata.json": "88c6eaa92fb4cdd1c53a8d4d684020b7cf01e55712ab4c93eb03824620b022d2",
+    "outputs/experiments/ADVISOR_MAIN_CONT_OFF_20260925/exchange_fills.csv": "b99fcd2a99941fe03ba77f0e20619e1d1133a269d25514d48d74b47e1369caef",
+    "data/stock_data.csv": "9b5cf4e6d7281b877616da7242d0deb5d4ae35c3c0add55e6f2d725deb47206a",
+    "outputs/experiments/derived/advisor_baseline_to_20260710/provisional_direction_validation/daily_comparison_value.csv": "13dde1d717fc95c3a6cd7ec8401b97c4b3ebcabaf88ea92807f7d7e6837f9067",
+    "validation/data_trading_value.csv": "c319c1e7e6e8bd96c2153c4288701066d5325686f1c146b4bdb610f13f641615",
+    "outputs/experiments/derived/advisor_baseline_to_20260710/provisional_direction_validation/daily_comparison_volume.csv": "367d760b031c825268623ba3d7c1541a549ff73c15200b6e68a3499bdf385bc2",
+    "validation/data_trading_volume.csv": "eb5bfdef6bea8f811530b32808f744a743ffcd8a536380e355c7eed8d030e465"
+  }
+}

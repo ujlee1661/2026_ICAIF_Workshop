@@ -1,0 +1,1 @@
+﻿run_id,date,turn,subturn,agent_id,news_depth,fake_public_id,fake_synthetic_id,title,body_seen_by_agent,misinformation_type,false_claim,correct_fact,why_false_or_misleading,sources,selected_by_agent,action,quantity

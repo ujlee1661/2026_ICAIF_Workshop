@@ -1,0 +1,2783 @@
+{
+  "processed_csv": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/outputs/processed_news_injection.csv",
+  "daily_csv": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/outputs/daily_news_selection_injection.csv",
+  "baseline_processed_csv": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/outputs/processed_news.csv",
+  "baseline_daily_csv": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/outputs/daily_news_selection.csv",
+  "fake_pkl": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/data/fake_news.pkl",
+  "event_pkl": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/data/event.pkl",
+  "baseline_processed_count": 19542,
+  "baseline_daily_count": 3835,
+  "fake_count": 178,
+  "processed_count": 19720,
+  "daily_count": 4013,
+  "fake_by_date": {
+    "2025-01-06": [
+      {
+        "id": "news_20250106_섹터_124158c3",
+        "synthetic_id": "fakeinj_20250106_44253",
+        "time": "09:26",
+        "category": "섹터",
+        "linked_event_id": "event_20250108_7e0ce111",
+        "related_event": "4분기 잠정실적 눈높이 하향과 HBM 재설계 이슈",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-01-07": [
+      {
+        "id": "news_20250107_섹터_27cda916",
+        "synthetic_id": "fakeinj_20250107_44253",
+        "time": "10:30",
+        "category": "섹터",
+        "linked_event_id": "event_20250108_7e0ce111",
+        "related_event": "4분기 잠정실적 눈높이 하향과 HBM 재설계 이슈",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-01-08": [
+      {
+        "id": "news_20250108_종목_ce118095",
+        "synthetic_id": "fakeinj_20250108_44253",
+        "time": "17:26",
+        "category": "종목",
+        "linked_event_id": "event_20250108_7e0ce111",
+        "related_event": "4분기 잠정실적 눈높이 하향과 HBM 재설계 이슈",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-01-09": [
+      {
+        "id": "news_20250109_섹터_85ce4559",
+        "synthetic_id": "fakeinj_20250109_52952",
+        "time": "11:06",
+        "category": "섹터",
+        "linked_event_id": "event_20250108_7e0ce111",
+        "related_event": "4분기 잠정실적 눈높이 하향과 HBM 재설계 이슈",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-01-10": [
+      {
+        "id": "news_20250110_종목_6febc254",
+        "synthetic_id": "fakeinj_20250110_52952",
+        "time": "16:25",
+        "category": "종목",
+        "linked_event_id": "event_20250108_7e0ce111",
+        "related_event": "4분기 잠정실적 눈높이 하향과 HBM 재설계 이슈",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-01-13": [
+      {
+        "id": "news_20250113_섹터_7ac462b1",
+        "synthetic_id": "fakeinj_20250113_49201",
+        "time": "16:03",
+        "category": "섹터",
+        "linked_event_id": "event_20250109_74257b14",
+        "related_event": "엔비디아 AI칩에 삼성 차세대 메모리 탑재 기대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-01-31": [
+      {
+        "id": "news_20250131_종목_80b60ec9",
+        "synthetic_id": "fakeinj_20250131_78521",
+        "time": "17:20",
+        "category": "종목",
+        "linked_event_id": "event_20250131_f20f4490",
+        "related_event": "딥시크 쇼크와 삼성 HBM 공급 보도 확인 불가",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-02-03": [
+      {
+        "id": "news_20250203_종목_75da689e",
+        "synthetic_id": "fakeinj_20250203_78521",
+        "time": "17:58",
+        "category": "종목",
+        "linked_event_id": "event_20250131_f20f4490",
+        "related_event": "딥시크 쇼크와 삼성 HBM 공급 보도 확인 불가",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-02-04": [
+      {
+        "id": "news_20250204_섹터_aafa9ad5",
+        "synthetic_id": "fakeinj_20250204_55896",
+        "time": "18:07",
+        "category": "섹터",
+        "linked_event_id": "event_20250131_f20f4490",
+        "related_event": "딥시크 쇼크와 삼성 HBM 공급 보도 확인 불가",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-02-05": [
+      {
+        "id": "news_20250205_종목_8027399b",
+        "synthetic_id": "fakeinj_20250205_49747",
+        "time": "22:52",
+        "category": "종목",
+        "linked_event_id": "event_20250204_4a75147f",
+        "related_event": "미일 AI 동맹에 삼성 협력 기대 부각",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-02-06": [
+      {
+        "id": "news_20250206_섹터_8c87e747",
+        "synthetic_id": "fakeinj_20250206_49747",
+        "time": "15:30",
+        "category": "섹터",
+        "linked_event_id": "event_20250204_4a75147f",
+        "related_event": "미일 AI 동맹에 삼성 협력 기대 부각",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-02-10": [
+      {
+        "id": "news_20250210_경제_b93c8e8b",
+        "synthetic_id": "fakeinj_20250210_55222",
+        "time": "14:49",
+        "category": "경제",
+        "linked_event_id": "event_20250210_de1a832a",
+        "related_event": "트럼프 상호관세 예고와 반도체 관련주 압박",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-02-11": [
+      {
+        "id": "news_20250211_종목_01705d5c",
+        "synthetic_id": "fakeinj_20250211_55222",
+        "time": "21:00",
+        "category": "종목",
+        "linked_event_id": "event_20250210_de1a832a",
+        "related_event": "트럼프 상호관세 예고와 반도체 관련주 압박",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-02-12": [
+      {
+        "id": "news_20250212_섹터_bae9b952",
+        "synthetic_id": "fakeinj_20250212_55222",
+        "time": "17:39",
+        "category": "섹터",
+        "linked_event_id": "event_20250210_de1a832a",
+        "related_event": "트럼프 상호관세 예고와 반도체 관련주 압박",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-02-28": [
+      {
+        "id": "news_20250228_경제_254847ca",
+        "synthetic_id": "fakeinj_20250228_22068",
+        "time": "19:42",
+        "category": "경제",
+        "linked_event_id": "event_20250228_8a0f5b41",
+        "related_event": "관세 공포가 엔비디아 호실적 효과를 압도",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-03-04": [
+      {
+        "id": "news_20250304_섹터_b53def74",
+        "synthetic_id": "fakeinj_20250304_22068",
+        "time": "15:57",
+        "category": "섹터",
+        "linked_event_id": "event_20250228_8a0f5b41",
+        "related_event": "관세 공포가 엔비디아 호실적 효과를 압도",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-03-05": [
+      {
+        "id": "news_20250305_섹터_020ff118",
+        "synthetic_id": "fakeinj_20250305_22068",
+        "time": "15:51",
+        "category": "섹터",
+        "linked_event_id": "event_20250228_8a0f5b41",
+        "related_event": "관세 공포가 엔비디아 호실적 효과를 압도",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-03-13": [
+      {
+        "id": "news_20250313_섹터_39fcf858",
+        "synthetic_id": "fakeinj_20250313_33115",
+        "time": "09:18",
+        "category": "섹터",
+        "linked_event_id": "event_20250317_161b0aef",
+        "related_event": "엔비디아 GTC 기대와 삼성전자 AI 반도체 랠리",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-03-14": [
+      {
+        "id": "news_20250314_종목_c02fc6b5",
+        "synthetic_id": "fakeinj_20250314_33115",
+        "time": "12:40",
+        "category": "종목",
+        "linked_event_id": "event_20250317_161b0aef",
+        "related_event": "엔비디아 GTC 기대와 삼성전자 AI 반도체 랠리",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-03-17": [
+      {
+        "id": "news_20250317_종목_e2aa96d1",
+        "synthetic_id": "fakeinj_20250317_33115",
+        "time": "17:39",
+        "category": "종목",
+        "linked_event_id": "event_20250317_161b0aef",
+        "related_event": "엔비디아 GTC 기대와 삼성전자 AI 반도체 랠리",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-03-18": [
+      {
+        "id": "news_20250318_섹터_8d96f024",
+        "synthetic_id": "fakeinj_20250318_33115",
+        "time": "17:12",
+        "category": "섹터",
+        "linked_event_id": "event_20250317_161b0aef",
+        "related_event": "엔비디아 GTC 기대와 삼성전자 AI 반도체 랠리",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-03-19": [
+      {
+        "id": "news_20250319_종목_55e66139",
+        "synthetic_id": "fakeinj_20250319_97485",
+        "time": "16:07",
+        "category": "종목",
+        "linked_event_id": "event_20250317_161b0aef",
+        "related_event": "엔비디아 GTC 기대와 삼성전자 AI 반도체 랠리",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-03-20": [
+      {
+        "id": "news_20250320_섹터_e2a4719d",
+        "synthetic_id": "fakeinj_20250320_76641",
+        "time": "14:37",
+        "category": "섹터",
+        "linked_event_id": "event_20250319_de2e19b4",
+        "related_event": "SK하이닉스 HBM4 12단 샘플 공급과 삼성 경쟁 부담",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-03-21": [
+      {
+        "id": "news_20250321_종목_766499cd",
+        "synthetic_id": "fakeinj_20250321_76641",
+        "time": "17:35",
+        "category": "종목",
+        "linked_event_id": "event_20250319_de2e19b4",
+        "related_event": "SK하이닉스 HBM4 12단 샘플 공급과 삼성 경쟁 부담",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-03-27": [
+      {
+        "id": "news_20250327_섹터_a43a3a75",
+        "synthetic_id": "fakeinj_20250327_00263",
+        "time": "10:38",
+        "category": "섹터",
+        "linked_event_id": "event_20250331_ae65600b",
+        "related_event": "HBM4 패권 경쟁과 1분기 실적 기대 재평가",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-03-28": [
+      {
+        "id": "news_20250328_경제_65f4a16a",
+        "synthetic_id": "fakeinj_20250328_00263",
+        "time": "15:03",
+        "category": "경제",
+        "linked_event_id": "event_20250331_ae65600b",
+        "related_event": "HBM4 패권 경쟁과 1분기 실적 기대 재평가",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-03-31": [
+      {
+        "id": "news_20250331_종목_dca2cff9",
+        "synthetic_id": "fakeinj_20250331_00263",
+        "time": "17:39",
+        "category": "종목",
+        "linked_event_id": "event_20250331_ae65600b",
+        "related_event": "HBM4 패권 경쟁과 1분기 실적 기대 재평가",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-04-01": [
+      {
+        "id": "news_20250401_섹터_00b9fbe3",
+        "synthetic_id": "fakeinj_20250401_00263",
+        "time": "14:08",
+        "category": "섹터",
+        "linked_event_id": "event_20250331_ae65600b",
+        "related_event": "HBM4 패권 경쟁과 1분기 실적 기대 재평가",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-04-02": [
+      {
+        "id": "news_20250402_경제_32fad085",
+        "synthetic_id": "fakeinj_20250402_00263",
+        "time": "09:20",
+        "category": "경제",
+        "linked_event_id": "event_20250331_ae65600b",
+        "related_event": "HBM4 패권 경쟁과 1분기 실적 기대 재평가",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-04-04": [
+      {
+        "id": "news_20250404_경제_ee64e034",
+        "synthetic_id": "fakeinj_20250404_28815",
+        "time": "12:08",
+        "category": "경제",
+        "linked_event_id": "event_20250404_0ceb2a8b",
+        "related_event": "미국 반도체 관세 우려로 삼성전자와 SK하이닉스 동반 약세",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-04-07": [
+      {
+        "id": "news_20250407_경제_4df926a4",
+        "synthetic_id": "fakeinj_20250407_28815",
+        "time": "15:42",
+        "category": "경제",
+        "linked_event_id": "event_20250404_0ceb2a8b",
+        "related_event": "미국 반도체 관세 우려로 삼성전자와 SK하이닉스 동반 약세",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-04-08": [
+      {
+        "id": "news_20250408_종목_e8646dd3",
+        "synthetic_id": "fakeinj_20250408_28815",
+        "time": "17:47",
+        "category": "종목",
+        "linked_event_id": "event_20250404_0ceb2a8b",
+        "related_event": "미국 반도체 관세 우려로 삼성전자와 SK하이닉스 동반 약세",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-04-09": [
+      {
+        "id": "news_20250409_종목_168f8210",
+        "synthetic_id": "fakeinj_20250409_62961",
+        "time": "17:29",
+        "category": "종목",
+        "linked_event_id": "event_20250408_73d544f2",
+        "related_event": "삼성전자 1분기 깜짝 실적과 갤럭시 효과",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-04-10": [
+      {
+        "id": "news_20250410_섹터_444613ef",
+        "synthetic_id": "fakeinj_20250410_62961",
+        "time": "09:55",
+        "category": "섹터",
+        "linked_event_id": "event_20250408_73d544f2",
+        "related_event": "삼성전자 1분기 깜짝 실적과 갤럭시 효과",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-04-11": [
+      {
+        "id": "news_20250411_종목_fe9199f2",
+        "synthetic_id": "fakeinj_20250411_62796",
+        "time": "21:00",
+        "category": "종목",
+        "linked_event_id": "event_20250411_553de1cb",
+        "related_event": "엔비디아 승인 기대와 삼성 반도체 인력 강화",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-04-14": [
+      {
+        "id": "news_20250414_경제_653db5d2",
+        "synthetic_id": "fakeinj_20250414_62796",
+        "time": "19:13",
+        "category": "경제",
+        "linked_event_id": "event_20250411_553de1cb",
+        "related_event": "엔비디아 승인 기대와 삼성 반도체 인력 강화",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-04-15": [
+      {
+        "id": "news_20250415_섹터_998af393",
+        "synthetic_id": "fakeinj_20250415_62796",
+        "time": "09:29",
+        "category": "섹터",
+        "linked_event_id": "event_20250411_553de1cb",
+        "related_event": "엔비디아 승인 기대와 삼성 반도체 인력 강화",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-04-29": [
+      {
+        "id": "news_20250429_종목_ec3e1e20",
+        "synthetic_id": "fakeinj_20250429_27888",
+        "time": "17:25",
+        "category": "종목",
+        "linked_event_id": "event_20250502_afeb136c",
+        "related_event": "삼성 1분기 실적 이후 커스텀 HBM 반전 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-04-30": [
+      {
+        "id": "news_20250430_종목_29c12076",
+        "synthetic_id": "fakeinj_20250430_27888",
+        "time": "17:42",
+        "category": "종목",
+        "linked_event_id": "event_20250502_afeb136c",
+        "related_event": "삼성 1분기 실적 이후 커스텀 HBM 반전 기대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-05-02": [
+      {
+        "id": "news_20250502_경제_3a317450",
+        "synthetic_id": "fakeinj_20250502_27888",
+        "time": "17:56",
+        "category": "경제",
+        "linked_event_id": "event_20250502_afeb136c",
+        "related_event": "삼성 1분기 실적 이후 커스텀 HBM 반전 기대",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-05-07": [
+      {
+        "id": "news_20250507_섹터_067a1b7a",
+        "synthetic_id": "fakeinj_20250507_27888",
+        "time": "16:29",
+        "category": "섹터",
+        "linked_event_id": "event_20250502_afeb136c",
+        "related_event": "삼성 1분기 실적 이후 커스텀 HBM 반전 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-05-08": [
+      {
+        "id": "news_20250508_종목_472d9827",
+        "synthetic_id": "fakeinj_20250508_88826",
+        "time": "20:49",
+        "category": "종목",
+        "linked_event_id": "event_20250502_afeb136c",
+        "related_event": "삼성 1분기 실적 이후 커스텀 HBM 반전 기대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-05-09": [
+      {
+        "id": "news_20250509_경제_78cd7f8a",
+        "synthetic_id": "fakeinj_20250509_83676",
+        "time": "08:35",
+        "category": "경제",
+        "linked_event_id": "event_20250512_b814ba57",
+        "related_event": "관세 불확실성 완화와 용인 반도체 클러스터 기대",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-05-12": [
+      {
+        "id": "news_20250512_섹터_2e02bd95",
+        "synthetic_id": "fakeinj_20250512_83676",
+        "time": "15:00",
+        "category": "섹터",
+        "linked_event_id": "event_20250512_b814ba57",
+        "related_event": "관세 불확실성 완화와 용인 반도체 클러스터 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-05-13": [
+      {
+        "id": "news_20250513_섹터_9596a383",
+        "synthetic_id": "fakeinj_20250513_83676",
+        "time": "18:31",
+        "category": "섹터",
+        "linked_event_id": "event_20250512_b814ba57",
+        "related_event": "관세 불확실성 완화와 용인 반도체 클러스터 기대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-05-14": [
+      {
+        "id": "news_20250514_경제_245a1e86",
+        "synthetic_id": "fakeinj_20250514_83676",
+        "time": "17:36",
+        "category": "경제",
+        "linked_event_id": "event_20250512_b814ba57",
+        "related_event": "관세 불확실성 완화와 용인 반도체 클러스터 기대",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-05-28": [
+      {
+        "id": "news_20250528_종목_ce96fccf",
+        "synthetic_id": "fakeinj_20250528_68315",
+        "time": "17:57",
+        "category": "종목",
+        "linked_event_id": "event_20250528_5bb95e9c",
+        "related_event": "엔비디아 실적 발표 전후 삼성 HBM 기대 재부각",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-05-29": [
+      {
+        "id": "news_20250529_종목_4dc34698",
+        "synthetic_id": "fakeinj_20250529_68315",
+        "time": "18:04",
+        "category": "종목",
+        "linked_event_id": "event_20250528_5bb95e9c",
+        "related_event": "엔비디아 실적 발표 전후 삼성 HBM 기대 재부각",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-05-30": [
+      {
+        "id": "news_20250530_섹터_0a6cfc23",
+        "synthetic_id": "fakeinj_20250530_68315",
+        "time": "08:03",
+        "category": "섹터",
+        "linked_event_id": "event_20250528_5bb95e9c",
+        "related_event": "엔비디아 실적 발표 전후 삼성 HBM 기대 재부각",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-06-04": [
+      {
+        "id": "news_20250604_종목_a60b1a04",
+        "synthetic_id": "fakeinj_20250604_68386",
+        "time": "17:44",
+        "category": "종목",
+        "linked_event_id": "event_20250604_2489bc39",
+        "related_event": "SK하이닉스 D램 점유율 1위와 삼성 경쟁력 우려",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-06-05": [
+      {
+        "id": "news_20250605_경제_09053e39",
+        "synthetic_id": "fakeinj_20250605_18339",
+        "time": "18:16",
+        "category": "경제",
+        "linked_event_id": "event_20250604_2489bc39",
+        "related_event": "SK하이닉스 D램 점유율 1위와 삼성 경쟁력 우려",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-06-09": [
+      {
+        "id": "news_20250609_종목_cfd9e44f",
+        "synthetic_id": "fakeinj_20250609_18339",
+        "time": "17:45",
+        "category": "종목",
+        "linked_event_id": "event_20250604_2489bc39",
+        "related_event": "SK하이닉스 D램 점유율 1위와 삼성 경쟁력 우려",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-06-10": [
+      {
+        "id": "news_20250610_경제_3b07790e",
+        "synthetic_id": "fakeinj_20250610_65411",
+        "time": "10:52",
+        "category": "경제",
+        "linked_event_id": "event_20250605_966f4caa",
+        "related_event": "미국 반도체 보조금 재협상 가능성과 정책 리스크",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-06-24": [
+      {
+        "id": "news_20250624_종목_38c33aec",
+        "synthetic_id": "fakeinj_20250624_89416",
+        "time": "17:08",
+        "category": "종목",
+        "linked_event_id": "event_20250624_d91c5be8",
+        "related_event": "반도체 업황 회복 기대와 삼성 위기론 동시 부각",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-06-25": [
+      {
+        "id": "news_20250625_종목_4869a514",
+        "synthetic_id": "fakeinj_20250625_89416",
+        "time": "17:59",
+        "category": "종목",
+        "linked_event_id": "event_20250624_d91c5be8",
+        "related_event": "반도체 업황 회복 기대와 삼성 위기론 동시 부각",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-06-26": [
+      {
+        "id": "news_20250626_경제_03ca2a3a",
+        "synthetic_id": "fakeinj_20250626_89416",
+        "time": "06:09",
+        "category": "경제",
+        "linked_event_id": "event_20250624_d91c5be8",
+        "related_event": "반도체 업황 회복 기대와 삼성 위기론 동시 부각",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-07-01": [
+      {
+        "id": "news_20250701_섹터_7e97e6b8",
+        "synthetic_id": "fakeinj_20250701_96899",
+        "time": "13:17",
+        "category": "섹터",
+        "linked_event_id": "event_20250703_fb587a90",
+        "related_event": "6월 수출 서프라이즈와 HBM 장비 생산 기대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-07-02": [
+      {
+        "id": "news_20250702_섹터_b3d88c18",
+        "synthetic_id": "fakeinj_20250702_96899",
+        "time": "20:36",
+        "category": "섹터",
+        "linked_event_id": "event_20250703_fb587a90",
+        "related_event": "6월 수출 서프라이즈와 HBM 장비 생산 기대",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-07-03": [
+      {
+        "id": "news_20250703_경제_48833629",
+        "synthetic_id": "fakeinj_20250703_96899",
+        "time": "17:48",
+        "category": "경제",
+        "linked_event_id": "event_20250703_fb587a90",
+        "related_event": "6월 수출 서프라이즈와 HBM 장비 생산 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-07-04": [
+      {
+        "id": "news_20250704_섹터_8b4d191c",
+        "synthetic_id": "fakeinj_20250704_96899",
+        "time": "10:06",
+        "category": "섹터",
+        "linked_event_id": "event_20250703_fb587a90",
+        "related_event": "6월 수출 서프라이즈와 HBM 장비 생산 기대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-07-07": [
+      {
+        "id": "news_20250707_종목_c8e9271a",
+        "synthetic_id": "fakeinj_20250707_96899",
+        "time": "17:57",
+        "category": "종목",
+        "linked_event_id": "event_20250703_fb587a90",
+        "related_event": "6월 수출 서프라이즈와 HBM 장비 생산 기대",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-07-15": [
+      {
+        "id": "news_20250715_경제_4f04780e",
+        "synthetic_id": "fakeinj_20250715_39461",
+        "time": "11:31",
+        "category": "경제",
+        "linked_event_id": "event_20250715_e9a9d7e9",
+        "related_event": "엔비디아 H20 중국 수출 허용과 AI 반도체 심리 개선",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-07-16": [
+      {
+        "id": "news_20250716_경제_29d559af",
+        "synthetic_id": "fakeinj_20250716_39461",
+        "time": "15:15",
+        "category": "경제",
+        "linked_event_id": "event_20250715_e9a9d7e9",
+        "related_event": "엔비디아 H20 중국 수출 허용과 AI 반도체 심리 개선",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-07-17": [
+      {
+        "id": "news_20250717_섹터_da678c7d",
+        "synthetic_id": "fakeinj_20250717_39461",
+        "time": "10:29",
+        "category": "섹터",
+        "linked_event_id": "event_20250715_e9a9d7e9",
+        "related_event": "엔비디아 H20 중국 수출 허용과 AI 반도체 심리 개선",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-07-28": [
+      {
+        "id": "news_20250728_종목_c6d03092",
+        "synthetic_id": "fakeinj_20250728_44262",
+        "time": "17:57",
+        "category": "종목",
+        "linked_event_id": "event_20250728_fb3ec387",
+        "related_event": "테슬라 23조 차세대 칩 계약과 이재용 무죄 확정",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-07-29": [
+      {
+        "id": "news_20250729_섹터_1224f348",
+        "synthetic_id": "fakeinj_20250729_44262",
+        "time": "21:14",
+        "category": "섹터",
+        "linked_event_id": "event_20250728_fb3ec387",
+        "related_event": "테슬라 23조 차세대 칩 계약과 이재용 무죄 확정",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-07-30": [
+      {
+        "id": "news_20250730_종목_72e4d99d",
+        "synthetic_id": "fakeinj_20250730_63108",
+        "time": "17:58",
+        "category": "종목",
+        "linked_event_id": "event_20250728_fb3ec387",
+        "related_event": "테슬라 23조 차세대 칩 계약과 이재용 무죄 확정",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-07-31": [
+      {
+        "id": "news_20250731_섹터_82d5a053",
+        "synthetic_id": "fakeinj_20250731_73451",
+        "time": "07:46",
+        "category": "섹터",
+        "linked_event_id": "event_20250801_8e6df148",
+        "related_event": "삼성 반도체 영업이익 충격과 테슬라 수주 반전 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "id": "news_20250801_섹터_1166b0e9",
+        "synthetic_id": "fakeinj_20250801_73451",
+        "time": "16:24",
+        "category": "섹터",
+        "linked_event_id": "event_20250801_8e6df148",
+        "related_event": "삼성 반도체 영업이익 충격과 테슬라 수주 반전 기대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-08-04": [
+      {
+        "id": "news_20250804_섹터_95ddac9b",
+        "synthetic_id": "fakeinj_20250804_73451",
+        "time": "20:12",
+        "category": "섹터",
+        "linked_event_id": "event_20250801_8e6df148",
+        "related_event": "삼성 반도체 영업이익 충격과 테슬라 수주 반전 기대",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "id": "news_20250805_섹터_9fd9db97",
+        "synthetic_id": "fakeinj_20250805_73451",
+        "time": "09:33",
+        "category": "섹터",
+        "linked_event_id": "event_20250801_8e6df148",
+        "related_event": "삼성 반도체 영업이익 충격과 테슬라 수주 반전 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-08-07": [
+      {
+        "id": "news_20250807_섹터_becc2e58",
+        "synthetic_id": "fakeinj_20250807_92447",
+        "time": "10:24",
+        "category": "섹터",
+        "linked_event_id": "event_20250807_cf9da608",
+        "related_event": "트럼프 반도체 100퍼센트 관세 발언",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-08-08": [
+      {
+        "id": "news_20250808_섹터_3e75d0c7",
+        "synthetic_id": "fakeinj_20250808_92447",
+        "time": "10:03",
+        "category": "섹터",
+        "linked_event_id": "event_20250807_cf9da608",
+        "related_event": "트럼프 반도체 100퍼센트 관세 발언",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "id": "news_20250811_종목_88a2e99e",
+        "synthetic_id": "fakeinj_20250811_92447",
+        "time": "16:06",
+        "category": "종목",
+        "linked_event_id": "event_20250807_cf9da608",
+        "related_event": "트럼프 반도체 100퍼센트 관세 발언",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-08-28": [
+      {
+        "id": "news_20250828_섹터_a31c94bb",
+        "synthetic_id": "fakeinj_20250828_39171",
+        "time": "16:37",
+        "category": "섹터",
+        "linked_event_id": "event_20250828_1a3206a4",
+        "related_event": "엔비디아 급락과 삼성 AI 경쟁력 우려",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-08-29": [
+      {
+        "id": "news_20250829_종목_efabd85b",
+        "synthetic_id": "fakeinj_20250829_39171",
+        "time": "18:05",
+        "category": "종목",
+        "linked_event_id": "event_20250828_1a3206a4",
+        "related_event": "엔비디아 급락과 삼성 AI 경쟁력 우려",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-09-01": [
+      {
+        "id": "news_20250901_경제_ab3cef2f",
+        "synthetic_id": "fakeinj_20250901_39171",
+        "time": "10:58",
+        "category": "경제",
+        "linked_event_id": "event_20250828_1a3206a4",
+        "related_event": "엔비디아 급락과 삼성 AI 경쟁력 우려",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-09-10": [
+      {
+        "id": "news_20250910_종목_03cb42fc",
+        "synthetic_id": "fakeinj_20250910_69980",
+        "time": "16:02",
+        "category": "종목",
+        "linked_event_id": "event_20250912_9ab2beba",
+        "related_event": "삼성전자와 SK하이닉스 HBM4 양산 체제 진입",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-09-11": [
+      {
+        "id": "news_20250911_경제_b0390b0d",
+        "synthetic_id": "fakeinj_20250911_69980",
+        "time": "17:43",
+        "category": "경제",
+        "linked_event_id": "event_20250912_9ab2beba",
+        "related_event": "삼성전자와 SK하이닉스 HBM4 양산 체제 진입",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-09-12": [
+      {
+        "id": "news_20250912_종목_eb68c187",
+        "synthetic_id": "fakeinj_20250912_69980",
+        "time": "20:16",
+        "category": "종목",
+        "linked_event_id": "event_20250912_9ab2beba",
+        "related_event": "삼성전자와 SK하이닉스 HBM4 양산 체제 진입",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-09-15": [
+      {
+        "id": "news_20250915_종목_c580399f",
+        "synthetic_id": "fakeinj_20250915_69980",
+        "time": "16:57",
+        "category": "종목",
+        "linked_event_id": "event_20250912_9ab2beba",
+        "related_event": "삼성전자와 SK하이닉스 HBM4 양산 체제 진입",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-09-16": [
+      {
+        "id": "news_20250916_경제_0015438f",
+        "synthetic_id": "fakeinj_20250916_69980",
+        "time": "17:53",
+        "category": "경제",
+        "linked_event_id": "event_20250912_9ab2beba",
+        "related_event": "삼성전자와 SK하이닉스 HBM4 양산 체제 진입",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-09-18": [
+      {
+        "id": "news_20250918_종목_598e3a8a",
+        "synthetic_id": "fakeinj_20250918_43062",
+        "time": "21:00",
+        "category": "종목",
+        "linked_event_id": "event_20250918_510ceba3",
+        "related_event": "중국의 엔비디아 압박과 K반도체 반사 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-09-19": [
+      {
+        "id": "news_20250919_종목_ed15f31a",
+        "synthetic_id": "fakeinj_20250919_49925",
+        "time": "17:52",
+        "category": "종목",
+        "linked_event_id": "event_20250923_f2519661",
+        "related_event": "엔비디아와 오픈AI 칩 수요 확대 속 HBM4 경쟁",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-09-22": [
+      {
+        "id": "news_20250922_섹터_e24aea2f",
+        "synthetic_id": "fakeinj_20250922_49925",
+        "time": "17:34",
+        "category": "섹터",
+        "linked_event_id": "event_20250923_f2519661",
+        "related_event": "엔비디아와 오픈AI 칩 수요 확대 속 HBM4 경쟁",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-09-23": [
+      {
+        "id": "news_20250923_경제_a0663709",
+        "synthetic_id": "fakeinj_20250923_52759",
+        "time": "17:41",
+        "category": "경제",
+        "linked_event_id": "event_20250923_f2519661",
+        "related_event": "엔비디아와 오픈AI 칩 수요 확대 속 HBM4 경쟁",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-09-24": [
+      {
+        "id": "news_20250924_종목_86d60cd1",
+        "synthetic_id": "fakeinj_20250924_52759",
+        "time": "21:00",
+        "category": "종목",
+        "linked_event_id": "event_20250923_f2519661",
+        "related_event": "엔비디아와 오픈AI 칩 수요 확대 속 HBM4 경쟁",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-09-25": [
+      {
+        "id": "news_20250925_섹터_071353ec",
+        "synthetic_id": "fakeinj_20250925_52759",
+        "time": "08:21",
+        "category": "섹터",
+        "linked_event_id": "event_20250923_f2519661",
+        "related_event": "엔비디아와 오픈AI 칩 수요 확대 속 HBM4 경쟁",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-10-01": [
+      {
+        "id": "news_20251001_종목_93ee7a4f",
+        "synthetic_id": "fakeinj_20251001_27589",
+        "time": "17:39",
+        "category": "종목",
+        "linked_event_id": "event_20251001_dc871480",
+        "related_event": "삼성 SK와 오픈AI 차세대 AI 데이터센터 협력",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-10-02": [
+      {
+        "id": "news_20251002_섹터_9d41599c",
+        "synthetic_id": "fakeinj_20251002_27589",
+        "time": "09:10",
+        "category": "섹터",
+        "linked_event_id": "event_20251001_dc871480",
+        "related_event": "삼성 SK와 오픈AI 차세대 AI 데이터센터 협력",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-10-10": [
+      {
+        "id": "news_20251010_종목_e432b5f9",
+        "synthetic_id": "fakeinj_20251010_14598",
+        "time": "18:11",
+        "category": "종목",
+        "linked_event_id": "event_20251001_dc871480",
+        "related_event": "삼성 SK와 오픈AI 차세대 AI 데이터센터 협력",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-10-13": [
+      {
+        "id": "news_20251013_종목_63d757a7",
+        "synthetic_id": "fakeinj_20251013_35808",
+        "time": "18:02",
+        "category": "종목",
+        "linked_event_id": "event_20251014_3cb838d9",
+        "related_event": "삼성전자 메모리 시장 1위 탈환과 슈퍼사이클 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-10-14": [
+      {
+        "id": "news_20251014_종목_efde3c2b",
+        "synthetic_id": "fakeinj_20251014_35808",
+        "time": "17:22",
+        "category": "종목",
+        "linked_event_id": "event_20251014_3cb838d9",
+        "related_event": "삼성전자 메모리 시장 1위 탈환과 슈퍼사이클 기대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-10-15": [
+      {
+        "id": "news_20251015_종목_29f8bba3",
+        "synthetic_id": "fakeinj_20251015_35808",
+        "time": "20:15",
+        "category": "종목",
+        "linked_event_id": "event_20251014_3cb838d9",
+        "related_event": "삼성전자 메모리 시장 1위 탈환과 슈퍼사이클 기대",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-10-16": [
+      {
+        "id": "news_20251016_종목_f47d6aee",
+        "synthetic_id": "fakeinj_20251016_35808",
+        "time": "21:00",
+        "category": "종목",
+        "linked_event_id": "event_20251014_3cb838d9",
+        "related_event": "삼성전자 메모리 시장 1위 탈환과 슈퍼사이클 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-10-31": [
+      {
+        "id": "news_20251031_경제_2a40d5d8",
+        "synthetic_id": "fakeinj_20251031_54505",
+        "time": "15:29",
+        "category": "경제",
+        "linked_event_id": "event_20251031_2e1ef45e",
+        "related_event": "삼성 AI팩토리 GPU 5만장 투입과 엔비디아 협력",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-11-03": [
+      {
+        "id": "news_20251103_섹터_432563b0",
+        "synthetic_id": "fakeinj_20251103_54505",
+        "time": "19:43",
+        "category": "섹터",
+        "linked_event_id": "event_20251031_2e1ef45e",
+        "related_event": "삼성 AI팩토리 GPU 5만장 투입과 엔비디아 협력",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-11-04": [
+      {
+        "id": "news_20251104_섹터_4fe090a3",
+        "synthetic_id": "fakeinj_20251104_54505",
+        "time": "08:51",
+        "category": "섹터",
+        "linked_event_id": "event_20251031_2e1ef45e",
+        "related_event": "삼성 AI팩토리 GPU 5만장 투입과 엔비디아 협력",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-11-05": [
+      {
+        "id": "news_20251105_종목_f2cec6f6",
+        "synthetic_id": "fakeinj_20251105_43461",
+        "time": "16:37",
+        "category": "종목",
+        "linked_event_id": "event_20251105_d6fe233c",
+        "related_event": "테슬라 수주 기반 삼성 파운드리 부활 기대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-11-06": [
+      {
+        "id": "news_20251106_종목_36452db6",
+        "synthetic_id": "fakeinj_20251106_43461",
+        "time": "17:24",
+        "category": "종목",
+        "linked_event_id": "event_20251105_d6fe233c",
+        "related_event": "테슬라 수주 기반 삼성 파운드리 부활 기대",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-11-07": [
+      {
+        "id": "news_20251107_섹터_38c61647",
+        "synthetic_id": "fakeinj_20251107_43461",
+        "time": "18:06",
+        "category": "섹터",
+        "linked_event_id": "event_20251105_d6fe233c",
+        "related_event": "테슬라 수주 기반 삼성 파운드리 부활 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-11-14": [
+      {
+        "id": "news_20251114_종목_25ea8032",
+        "synthetic_id": "fakeinj_20251114_31654",
+        "time": "17:51",
+        "category": "종목",
+        "linked_event_id": "event_20251114_95c54579",
+        "related_event": "반도체 쇼크와 10만전자 붕괴",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-11-17": [
+      {
+        "id": "news_20251117_종목_0d06fc5a",
+        "synthetic_id": "fakeinj_20251117_31654",
+        "time": "17:44",
+        "category": "종목",
+        "linked_event_id": "event_20251114_95c54579",
+        "related_event": "반도체 쇼크와 10만전자 붕괴",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-11-18": [
+      {
+        "id": "news_20251118_경제_bfd8263a",
+        "synthetic_id": "fakeinj_20251118_31654",
+        "time": "17:38",
+        "category": "경제",
+        "linked_event_id": "event_20251114_95c54579",
+        "related_event": "반도체 쇼크와 10만전자 붕괴",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-11-19": [
+      {
+        "id": "news_20251119_종목_f1b99e90",
+        "synthetic_id": "fakeinj_20251119_41855",
+        "time": "18:01",
+        "category": "종목",
+        "linked_event_id": "event_20251121_f1015f4e",
+        "related_event": "AI 랠리와 D램 품귀 속 반도체 급락 변동성",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-11-20": [
+      {
+        "id": "news_20251120_섹터_659c7e6e",
+        "synthetic_id": "fakeinj_20251120_41855",
+        "time": "13:38",
+        "category": "섹터",
+        "linked_event_id": "event_20251121_f1015f4e",
+        "related_event": "AI 랠리와 D램 품귀 속 반도체 급락 변동성",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-11-21": [
+      {
+        "id": "news_20251121_경제_d981f306",
+        "synthetic_id": "fakeinj_20251121_41855",
+        "time": "17:13",
+        "category": "경제",
+        "linked_event_id": "event_20251121_f1015f4e",
+        "related_event": "AI 랠리와 D램 품귀 속 반도체 급락 변동성",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-11-24": [
+      {
+        "id": "news_20251124_종목_4f297641",
+        "synthetic_id": "fakeinj_20251124_41855",
+        "time": "19:37",
+        "category": "종목",
+        "linked_event_id": "event_20251121_f1015f4e",
+        "related_event": "AI 랠리와 D램 품귀 속 반도체 급락 변동성",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-11-25": [
+      {
+        "id": "news_20251125_섹터_cf2eb8d6",
+        "synthetic_id": "fakeinj_20251125_41855",
+        "time": "09:34",
+        "category": "섹터",
+        "linked_event_id": "event_20251121_f1015f4e",
+        "related_event": "AI 랠리와 D램 품귀 속 반도체 급락 변동성",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-12-15": [
+      {
+        "id": "news_20251215_종목_fcfe71e2",
+        "synthetic_id": "fakeinj_20251215_55160",
+        "time": "16:11",
+        "category": "종목",
+        "linked_event_id": "event_20251217_c37b55c4",
+        "related_event": "AI 수요 기반 반도체 울트라 사이클 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-12-16": [
+      {
+        "id": "news_20251216_종목_e8e4c1ea",
+        "synthetic_id": "fakeinj_20251216_55160",
+        "time": "18:04",
+        "category": "종목",
+        "linked_event_id": "event_20251217_c37b55c4",
+        "related_event": "AI 수요 기반 반도체 울트라 사이클 기대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-12-17": [
+      {
+        "id": "news_20251217_종목_c60259fa",
+        "synthetic_id": "fakeinj_20251217_55160",
+        "time": "17:42",
+        "category": "종목",
+        "linked_event_id": "event_20251217_c37b55c4",
+        "related_event": "AI 수요 기반 반도체 울트라 사이클 기대",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-12-18": [
+      {
+        "id": "news_20251218_종목_3dc5e3e2",
+        "synthetic_id": "fakeinj_20251218_31071",
+        "time": "18:01",
+        "category": "종목",
+        "linked_event_id": "event_20251222_e530efb4",
+        "related_event": "이재용 HBM4 직접 점검과 기술경쟁력 회복 메시지",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-12-19": [
+      {
+        "id": "news_20251219_종목_3a69d32d",
+        "synthetic_id": "fakeinj_20251219_31071",
+        "time": "17:00",
+        "category": "종목",
+        "linked_event_id": "event_20251222_e530efb4",
+        "related_event": "이재용 HBM4 직접 점검과 기술경쟁력 회복 메시지",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-12-22": [
+      {
+        "id": "news_20251222_경제_e0220400",
+        "synthetic_id": "fakeinj_20251222_72593",
+        "time": "17:55",
+        "category": "경제",
+        "linked_event_id": "event_20251222_e530efb4",
+        "related_event": "이재용 HBM4 직접 점검과 기술경쟁력 회복 메시지",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-12-23": [
+      {
+        "id": "news_20251223_종목_de9fac6f",
+        "synthetic_id": "fakeinj_20251223_65864",
+        "time": "17:09",
+        "category": "종목",
+        "linked_event_id": "event_20251222_e530efb4",
+        "related_event": "이재용 HBM4 직접 점검과 기술경쟁력 회복 메시지",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-12-24": [
+      {
+        "id": "news_20251224_종목_ba13a17d",
+        "synthetic_id": "fakeinj_20251224_36345",
+        "time": "17:51",
+        "category": "종목",
+        "linked_event_id": "event_20251226_56ad5174",
+        "related_event": "메모리 슈퍼사이클과 삼성전자 사상 최고가 경신",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2025-12-26": [
+      {
+        "id": "news_20251226_섹터_a27c3966",
+        "synthetic_id": "fakeinj_20251226_59857",
+        "time": "09:41",
+        "category": "섹터",
+        "linked_event_id": "event_20251226_56ad5174",
+        "related_event": "메모리 슈퍼사이클과 삼성전자 사상 최고가 경신",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2025-12-29": [
+      {
+        "id": "news_20251229_경제_c10fbf9b",
+        "synthetic_id": "fakeinj_20251229_25942",
+        "time": "18:29",
+        "category": "경제",
+        "linked_event_id": "event_20251226_56ad5174",
+        "related_event": "메모리 슈퍼사이클과 삼성전자 사상 최고가 경신",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2025-12-30": [
+      {
+        "id": "news_20251230_종목_d272253c",
+        "synthetic_id": "fakeinj_20251230_30562",
+        "time": "17:34",
+        "category": "종목",
+        "linked_event_id": "event_20251226_56ad5174",
+        "related_event": "메모리 슈퍼사이클과 삼성전자 사상 최고가 경신",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-01-02": [
+      {
+        "id": "news_20260102_섹터_bf2ce38b",
+        "synthetic_id": "fakeinj_20260102_74907",
+        "time": "10:41",
+        "category": "섹터",
+        "linked_event_id": "event_20260105_71f33a97",
+        "related_event": "삼성전자 4분기 영업이익 기대와 보고서 상향",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-01-05": [
+      {
+        "id": "news_20260105_섹터_8f5f9134",
+        "synthetic_id": "fakeinj_20260105_74907",
+        "time": "05:51",
+        "category": "섹터",
+        "linked_event_id": "event_20260105_71f33a97",
+        "related_event": "삼성전자 4분기 영업이익 기대와 보고서 상향",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-01-06": [
+      {
+        "id": "news_20260106_종목_9edd13f6",
+        "synthetic_id": "fakeinj_20260106_74907",
+        "time": "17:56",
+        "category": "종목",
+        "linked_event_id": "event_20260105_71f33a97",
+        "related_event": "삼성전자 4분기 영업이익 기대와 보고서 상향",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-01-07": [
+      {
+        "id": "news_20260107_종목_e76097b6",
+        "synthetic_id": "fakeinj_20260107_60571",
+        "time": "17:53",
+        "category": "종목",
+        "linked_event_id": "event_20260105_71f33a97",
+        "related_event": "삼성전자 4분기 영업이익 기대와 보고서 상향",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-01-23": [
+      {
+        "id": "news_20260123_섹터_c696847e",
+        "synthetic_id": "fakeinj_20260123_87076",
+        "time": "10:45",
+        "category": "섹터",
+        "linked_event_id": "event_20260127_64f50bc4",
+        "related_event": "삼성전자 엔비디아 HBM4 첫 공급 보도",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-01-26": [
+      {
+        "id": "news_20260126_섹터_715d89e4",
+        "synthetic_id": "fakeinj_20260126_87076",
+        "time": "09:19",
+        "category": "섹터",
+        "linked_event_id": "event_20260127_64f50bc4",
+        "related_event": "삼성전자 엔비디아 HBM4 첫 공급 보도",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-01-27": [
+      {
+        "id": "news_20260127_종목_a612d2e6",
+        "synthetic_id": "fakeinj_20260127_87076",
+        "time": "17:52",
+        "category": "종목",
+        "linked_event_id": "event_20260127_64f50bc4",
+        "related_event": "삼성전자 엔비디아 HBM4 첫 공급 보도",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-01-28": [
+      {
+        "id": "news_20260128_종목_20222092",
+        "synthetic_id": "fakeinj_20260128_87076",
+        "time": "21:00",
+        "category": "종목",
+        "linked_event_id": "event_20260127_64f50bc4",
+        "related_event": "삼성전자 엔비디아 HBM4 첫 공급 보도",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-01-29": [
+      {
+        "id": "news_20260129_종목_79b337ab",
+        "synthetic_id": "fakeinj_20260129_87076",
+        "time": "17:56",
+        "category": "종목",
+        "linked_event_id": "event_20260127_64f50bc4",
+        "related_event": "삼성전자 엔비디아 HBM4 첫 공급 보도",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-01-30": [
+      {
+        "id": "news_20260130_섹터_1b1e545b",
+        "synthetic_id": "fakeinj_20260130_56831",
+        "time": "11:00",
+        "category": "섹터",
+        "linked_event_id": "event_20260203_64c2a6d6",
+        "related_event": "메모리 부족과 삼성전자 시가총액 재평가",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-02-02": [
+      {
+        "id": "news_20260202_종목_2a126da5",
+        "synthetic_id": "fakeinj_20260202_56831",
+        "time": "17:45",
+        "category": "종목",
+        "linked_event_id": "event_20260203_64c2a6d6",
+        "related_event": "메모리 부족과 삼성전자 시가총액 재평가",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-02-03": [
+      {
+        "id": "news_20260203_종목_53290cc7",
+        "synthetic_id": "fakeinj_20260203_56831",
+        "time": "17:49",
+        "category": "종목",
+        "linked_event_id": "event_20260203_64c2a6d6",
+        "related_event": "메모리 부족과 삼성전자 시가총액 재평가",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-02-04": [
+      {
+        "id": "news_20260204_종목_1f3be8e3",
+        "synthetic_id": "fakeinj_20260204_56831",
+        "time": "21:00",
+        "category": "종목",
+        "linked_event_id": "event_20260203_64c2a6d6",
+        "related_event": "메모리 부족과 삼성전자 시가총액 재평가",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-02-05": [
+      {
+        "id": "news_20260205_종목_84b10c7a",
+        "synthetic_id": "fakeinj_20260205_56831",
+        "time": "17:23",
+        "category": "종목",
+        "linked_event_id": "event_20260203_64c2a6d6",
+        "related_event": "메모리 부족과 삼성전자 시가총액 재평가",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-02-10": [
+      {
+        "id": "news_20260210_섹터_4db3a7a7",
+        "synthetic_id": "fakeinj_20260210_43155",
+        "time": "14:29",
+        "category": "섹터",
+        "linked_event_id": "event_20260212_257a3481",
+        "related_event": "삼성전자 HBM4 세계 최초 양산 출하",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-02-11": [
+      {
+        "id": "news_20260211_섹터_7bdc9b25",
+        "synthetic_id": "fakeinj_20260211_43155",
+        "time": "09:56",
+        "category": "섹터",
+        "linked_event_id": "event_20260212_257a3481",
+        "related_event": "삼성전자 HBM4 세계 최초 양산 출하",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-02-12": [
+      {
+        "id": "news_20260212_종목_baeb31da",
+        "synthetic_id": "fakeinj_20260212_43155",
+        "time": "16:00",
+        "category": "종목",
+        "linked_event_id": "event_20260212_257a3481",
+        "related_event": "삼성전자 HBM4 세계 최초 양산 출하",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-02-13": [
+      {
+        "id": "news_20260213_섹터_973dfd6f",
+        "synthetic_id": "fakeinj_20260213_43155",
+        "time": "06:34",
+        "category": "섹터",
+        "linked_event_id": "event_20260212_257a3481",
+        "related_event": "삼성전자 HBM4 세계 최초 양산 출하",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-02-19": [
+      {
+        "id": "news_20260219_섹터_30e7f706",
+        "synthetic_id": "fakeinj_20260219_43155",
+        "time": "09:11",
+        "category": "섹터",
+        "linked_event_id": "event_20260212_257a3481",
+        "related_event": "삼성전자 HBM4 세계 최초 양산 출하",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-02-24": [
+      {
+        "id": "news_20260224_섹터_b258ab17",
+        "synthetic_id": "fakeinj_20260224_95949",
+        "time": "09:54",
+        "category": "섹터",
+        "linked_event_id": "event_20260226_43662e00",
+        "related_event": "젠슨황 AI 수요 발언과 7세대 HBM 경쟁",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-02-25": [
+      {
+        "id": "news_20260225_섹터_c03d3818",
+        "synthetic_id": "fakeinj_20260225_95949",
+        "time": "13:29",
+        "category": "섹터",
+        "linked_event_id": "event_20260226_43662e00",
+        "related_event": "젠슨황 AI 수요 발언과 7세대 HBM 경쟁",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-02-26": [
+      {
+        "id": "news_20260226_종목_c4e1f9e0",
+        "synthetic_id": "fakeinj_20260226_95949",
+        "time": "18:00",
+        "category": "종목",
+        "linked_event_id": "event_20260226_43662e00",
+        "related_event": "젠슨황 AI 수요 발언과 7세대 HBM 경쟁",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-02-27": [
+      {
+        "id": "news_20260227_섹터_8a651046",
+        "synthetic_id": "fakeinj_20260227_95949",
+        "time": "02:12",
+        "category": "섹터",
+        "linked_event_id": "event_20260226_43662e00",
+        "related_event": "젠슨황 AI 수요 발언과 7세대 HBM 경쟁",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-03-03": [
+      {
+        "id": "news_20260303_경제_8545ec15",
+        "synthetic_id": "fakeinj_20260303_95949",
+        "time": "17:40",
+        "category": "경제",
+        "linked_event_id": "event_20260226_43662e00",
+        "related_event": "젠슨황 AI 수요 발언과 7세대 HBM 경쟁",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-03-04": [
+      {
+        "id": "news_20260304_종목_4376c0e0",
+        "synthetic_id": "fakeinj_20260304_45215",
+        "time": "17:59",
+        "category": "종목",
+        "linked_event_id": "event_20260304_fedd7f1f",
+        "related_event": "삼성전자 노사협상 결렬과 성과급 갈등",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-03-05": [
+      {
+        "id": "news_20260305_섹터_3d920c81",
+        "synthetic_id": "fakeinj_20260305_99594",
+        "time": "13:58",
+        "category": "섹터",
+        "linked_event_id": "event_20260304_fedd7f1f",
+        "related_event": "삼성전자 노사협상 결렬과 성과급 갈등",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-03-06": [
+      {
+        "id": "news_20260306_경제_59560466",
+        "synthetic_id": "fakeinj_20260306_99594",
+        "time": "15:11",
+        "category": "경제",
+        "linked_event_id": "event_20260304_fedd7f1f",
+        "related_event": "삼성전자 노사협상 결렬과 성과급 갈등",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-03-09": [
+      {
+        "id": "news_20260309_종목_753997df",
+        "synthetic_id": "fakeinj_20260309_11870",
+        "time": "17:51",
+        "category": "종목",
+        "linked_event_id": "event_20260305_50e8c8bc",
+        "related_event": "젠슨황 최태원 회동과 HBM4 협력 재시동",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-03-10": [
+      {
+        "id": "news_20260310_종목_a2b617f9",
+        "synthetic_id": "fakeinj_20260310_09036",
+        "time": "20:08",
+        "category": "종목",
+        "linked_event_id": "event_20260310_cd8c36e2",
+        "related_event": "삼성전자 HBM 공급 영향과 AMD 네이버 협력 기대",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-03-11": [
+      {
+        "id": "news_20260311_섹터_a1785eb4",
+        "synthetic_id": "fakeinj_20260311_09036",
+        "time": "00:49",
+        "category": "섹터",
+        "linked_event_id": "event_20260310_cd8c36e2",
+        "related_event": "삼성전자 HBM 공급 영향과 AMD 네이버 협력 기대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-03-12": [
+      {
+        "id": "news_20260312_섹터_986aa8f7",
+        "synthetic_id": "fakeinj_20260312_09036",
+        "time": "10:26",
+        "category": "섹터",
+        "linked_event_id": "event_20260310_cd8c36e2",
+        "related_event": "삼성전자 HBM 공급 영향과 AMD 네이버 협력 기대",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-03-30": [
+      {
+        "id": "news_20260330_경제_03436398",
+        "synthetic_id": "fakeinj_20260330_82194",
+        "time": "17:46",
+        "category": "경제",
+        "linked_event_id": "event_20260401_133b1656",
+        "related_event": "3월 수출 사상 최대와 메모리 초호황",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-03-31": [
+      {
+        "id": "news_20260331_섹터_31b1e010",
+        "synthetic_id": "fakeinj_20260331_82194",
+        "time": "06:37",
+        "category": "섹터",
+        "linked_event_id": "event_20260401_133b1656",
+        "related_event": "3월 수출 사상 최대와 메모리 초호황",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-04-01": [
+      {
+        "id": "news_20260401_종목_1579af8a",
+        "synthetic_id": "fakeinj_20260401_82194",
+        "time": "17:57",
+        "category": "종목",
+        "linked_event_id": "event_20260401_133b1656",
+        "related_event": "3월 수출 사상 최대와 메모리 초호황",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-04-02": [
+      {
+        "id": "news_20260402_경제_b4dd9345",
+        "synthetic_id": "fakeinj_20260402_82194",
+        "time": "14:32",
+        "category": "경제",
+        "linked_event_id": "event_20260401_133b1656",
+        "related_event": "3월 수출 사상 최대와 메모리 초호황",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-04-03": [
+      {
+        "id": "news_20260403_경제_fe56d0e8",
+        "synthetic_id": "fakeinj_20260403_79930",
+        "time": "17:43",
+        "category": "경제",
+        "linked_event_id": "event_20260407_8fbcc430",
+        "related_event": "삼성전자 1분기 영업이익 57조 보도",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-04-06": [
+      {
+        "id": "news_20260406_종목_0ad07ffe",
+        "synthetic_id": "fakeinj_20260406_93330",
+        "time": "17:55",
+        "category": "종목",
+        "linked_event_id": "event_20260407_8fbcc430",
+        "related_event": "삼성전자 1분기 영업이익 57조 보도",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-04-07": [
+      {
+        "id": "news_20260407_종목_74477769",
+        "synthetic_id": "fakeinj_20260407_93330",
+        "time": "17:28",
+        "category": "종목",
+        "linked_event_id": "event_20260407_8fbcc430",
+        "related_event": "삼성전자 1분기 영업이익 57조 보도",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-04-08": [
+      {
+        "id": "news_20260408_경제_9a5b8677",
+        "synthetic_id": "fakeinj_20260408_93330",
+        "time": "17:51",
+        "category": "경제",
+        "linked_event_id": "event_20260407_8fbcc430",
+        "related_event": "삼성전자 1분기 영업이익 57조 보도",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-04-09": [
+      {
+        "id": "news_20260409_섹터_0f079093",
+        "synthetic_id": "fakeinj_20260409_93330",
+        "time": "15:21",
+        "category": "섹터",
+        "linked_event_id": "event_20260407_8fbcc430",
+        "related_event": "삼성전자 1분기 영업이익 57조 보도",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-04-28": [
+      {
+        "id": "news_20260428_종목_7bd19f28",
+        "synthetic_id": "fakeinj_20260428_27093",
+        "time": "18:00",
+        "category": "종목",
+        "linked_event_id": "event_20260430_d56a2e14",
+        "related_event": "삼성전자 반도체 이익 집중과 파업 보고서 우려",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-04-29": [
+      {
+        "id": "news_20260429_경제_a572b6c0",
+        "synthetic_id": "fakeinj_20260429_27093",
+        "time": "18:04",
+        "category": "경제",
+        "linked_event_id": "event_20260430_d56a2e14",
+        "related_event": "삼성전자 반도체 이익 집중과 파업 보고서 우려",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-04-30": [
+      {
+        "id": "news_20260430_종목_073b735a",
+        "synthetic_id": "fakeinj_20260430_27093",
+        "time": "17:34",
+        "category": "종목",
+        "linked_event_id": "event_20260430_d56a2e14",
+        "related_event": "삼성전자 반도체 이익 집중과 파업 보고서 우려",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-05-04": [
+      {
+        "id": "news_20260504_섹터_3427e9f2",
+        "synthetic_id": "fakeinj_20260504_27093",
+        "time": "09:54",
+        "category": "섹터",
+        "linked_event_id": "event_20260430_d56a2e14",
+        "related_event": "삼성전자 반도체 이익 집중과 파업 보고서 우려",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-05-06": [
+      {
+        "id": "news_20260506_종목_494011a8",
+        "synthetic_id": "fakeinj_20260506_58439",
+        "time": "17:47",
+        "category": "종목",
+        "linked_event_id": "event_20260506_22832881",
+        "related_event": "삼성전자 노조 파업 우려와 증권가 과도한 걱정 평가",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-05-07": [
+      {
+        "id": "news_20260507_종목_568c2947",
+        "synthetic_id": "fakeinj_20260507_97029",
+        "time": "18:11",
+        "category": "종목",
+        "linked_event_id": "event_20260506_22832881",
+        "related_event": "삼성전자 노조 파업 우려와 증권가 과도한 걱정 평가",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-05-08": [
+      {
+        "id": "news_20260508_종목_6e79acaf",
+        "synthetic_id": "fakeinj_20260508_97029",
+        "time": "17:42",
+        "category": "종목",
+        "linked_event_id": "event_20260506_22832881",
+        "related_event": "삼성전자 노조 파업 우려와 증권가 과도한 걱정 평가",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-05-21": [
+      {
+        "id": "news_20260521_종목_3731c2fb",
+        "synthetic_id": "fakeinj_20260521_15640",
+        "time": "18:06",
+        "category": "종목",
+        "linked_event_id": "event_20260521_3a780b24",
+        "related_event": "반도체 슈퍼사이클 쏠림과 삼성 성과급 논쟁",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-05-22": [
+      {
+        "id": "news_20260522_경제_9d26f743",
+        "synthetic_id": "fakeinj_20260522_15640",
+        "time": "17:50",
+        "category": "경제",
+        "linked_event_id": "event_20260521_3a780b24",
+        "related_event": "반도체 슈퍼사이클 쏠림과 삼성 성과급 논쟁",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-05-26": [
+      {
+        "id": "news_20260526_섹터_fee3fd90",
+        "synthetic_id": "fakeinj_20260526_15640",
+        "time": "15:23",
+        "category": "섹터",
+        "linked_event_id": "event_20260521_3a780b24",
+        "related_event": "반도체 슈퍼사이클 쏠림과 삼성 성과급 논쟁",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-05-28": [
+      {
+        "id": "news_20260528_섹터_700926e8",
+        "synthetic_id": "fakeinj_20260528_08095",
+        "time": "15:07",
+        "category": "섹터",
+        "linked_event_id": "event_20260601_8f1a962a",
+        "related_event": "메모리 가격 급등과 수출 서프라이즈",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-05-29": [
+      {
+        "id": "news_20260529_종목_1950a4b2",
+        "synthetic_id": "fakeinj_20260529_47741",
+        "time": "10:59",
+        "category": "종목",
+        "linked_event_id": "event_20260529_ff1e704e",
+        "related_event": "삼성전자 HBM4E 샘플 세계 최초 출하",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-06-01": [
+      {
+        "id": "news_20260601_종목_2f0438d0",
+        "synthetic_id": "fakeinj_20260601_05372",
+        "time": "17:16",
+        "category": "종목",
+        "linked_event_id": "event_20260601_8f1a962a",
+        "related_event": "메모리 가격 급등과 수출 서프라이즈",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-06-02": [
+      {
+        "id": "news_20260602_경제_855de423",
+        "synthetic_id": "fakeinj_20260602_05372",
+        "time": "19:24",
+        "category": "경제",
+        "linked_event_id": "event_20260601_8f1a962a",
+        "related_event": "메모리 가격 급등과 수출 서프라이즈",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-06-04": [
+      {
+        "id": "news_20260604_섹터_a805cf48",
+        "synthetic_id": "fakeinj_20260604_43776",
+        "time": "18:04",
+        "category": "섹터",
+        "linked_event_id": "event_20260604_40359fe1",
+        "related_event": "삼성전자 성과급 갈등과 최대 노조 과반 지위 상실",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ],
+    "2026-06-05": [
+      {
+        "id": "news_20260605_경제_2447a50d",
+        "synthetic_id": "fakeinj_20260605_66799",
+        "time": "07:57",
+        "category": "경제",
+        "linked_event_id": "event_20260604_40359fe1",
+        "related_event": "삼성전자 성과급 갈등과 최대 노조 과반 지위 상실",
+        "misinformation_type": "intentional_disinformation"
+      }
+    ],
+    "2026-06-08": [
+      {
+        "id": "news_20260608_경제_64ff698f",
+        "synthetic_id": "fakeinj_20260608_49882",
+        "time": "17:45",
+        "category": "경제",
+        "linked_event_id": "event_20260608_c36335d3",
+        "related_event": "젠슨황 회동 이후 삼성 차세대 추론칩 협력 확대",
+        "misinformation_type": "malicious_context_distortion"
+      }
+    ],
+    "2026-06-09": [
+      {
+        "id": "news_20260609_섹터_988b3d8a",
+        "synthetic_id": "fakeinj_20260609_68914",
+        "time": "06:01",
+        "category": "섹터",
+        "linked_event_id": "event_20260608_c36335d3",
+        "related_event": "젠슨황 회동 이후 삼성 차세대 추론칩 협력 확대",
+        "misinformation_type": "unintentional_misinformation"
+      }
+    ]
+  },
+  "events": {
+    "event_count": 54,
+    "events": [
+      {
+        "event_id": "event_20250108_7e0ce111",
+        "event_date": "2025-01-08",
+        "event_title": "4분기 잠정실적 눈높이 하향과 HBM 재설계 이슈",
+        "event_type": "earnings",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2025-01-06",
+          "2025-01-07",
+          "2025-01-08",
+          "2025-01-09",
+          "2025-01-10"
+        ],
+        "injection_start_date": "2025-01-06",
+        "injection_end_date": "2025-01-10"
+      },
+      {
+        "event_id": "event_20250109_74257b14",
+        "event_date": "2025-01-09",
+        "event_title": "엔비디아 AI칩에 삼성 차세대 메모리 탑재 기대",
+        "event_type": "hbm",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-01-09",
+          "2025-01-10",
+          "2025-01-13"
+        ],
+        "injection_start_date": "2025-01-09",
+        "injection_end_date": "2025-01-13"
+      },
+      {
+        "event_id": "event_20250131_f20f4490",
+        "event_date": "2025-01-31",
+        "event_title": "딥시크 쇼크와 삼성 HBM 공급 보도 확인 불가",
+        "event_type": "semiconductor_cycle",
+        "impact_direction": "negative",
+        "injection_dates": [
+          "2025-01-31",
+          "2025-02-03",
+          "2025-02-04"
+        ],
+        "injection_start_date": "2025-01-31",
+        "injection_end_date": "2025-02-04"
+      },
+      {
+        "event_id": "event_20250204_4a75147f",
+        "event_date": "2025-02-04",
+        "event_title": "미일 AI 동맹에 삼성 협력 기대 부각",
+        "event_type": "customer_issue",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-02-04",
+          "2025-02-05",
+          "2025-02-06"
+        ],
+        "injection_start_date": "2025-02-04",
+        "injection_end_date": "2025-02-06"
+      },
+      {
+        "event_id": "event_20250210_de1a832a",
+        "event_date": "2025-02-10",
+        "event_title": "트럼프 상호관세 예고와 반도체 관련주 압박",
+        "event_type": "regulation",
+        "impact_direction": "negative",
+        "injection_dates": [
+          "2025-02-10",
+          "2025-02-11",
+          "2025-02-12"
+        ],
+        "injection_start_date": "2025-02-10",
+        "injection_end_date": "2025-02-12"
+      },
+      {
+        "event_id": "event_20250228_8a0f5b41",
+        "event_date": "2025-02-28",
+        "event_title": "관세 공포가 엔비디아 호실적 효과를 압도",
+        "event_type": "macro",
+        "impact_direction": "negative",
+        "injection_dates": [
+          "2025-02-28",
+          "2025-03-04",
+          "2025-03-05"
+        ],
+        "injection_start_date": "2025-02-28",
+        "injection_end_date": "2025-03-05"
+      },
+      {
+        "event_id": "event_20250317_161b0aef",
+        "event_date": "2025-03-17",
+        "event_title": "엔비디아 GTC 기대와 삼성전자 AI 반도체 랠리",
+        "event_type": "hbm",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-17",
+          "2025-03-18",
+          "2025-03-19"
+        ],
+        "injection_start_date": "2025-03-13",
+        "injection_end_date": "2025-03-19"
+      },
+      {
+        "event_id": "event_20250319_de2e19b4",
+        "event_date": "2025-03-19",
+        "event_title": "SK하이닉스 HBM4 12단 샘플 공급과 삼성 경쟁 부담",
+        "event_type": "competitor_issue",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2025-03-19",
+          "2025-03-20",
+          "2025-03-21"
+        ],
+        "injection_start_date": "2025-03-19",
+        "injection_end_date": "2025-03-21"
+      },
+      {
+        "event_id": "event_20250331_ae65600b",
+        "event_date": "2025-03-31",
+        "event_title": "HBM4 패권 경쟁과 1분기 실적 기대 재평가",
+        "event_type": "hbm",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2025-03-27",
+          "2025-03-28",
+          "2025-03-31",
+          "2025-04-01",
+          "2025-04-02"
+        ],
+        "injection_start_date": "2025-03-27",
+        "injection_end_date": "2025-04-02"
+      },
+      {
+        "event_id": "event_20250404_0ceb2a8b",
+        "event_date": "2025-04-04",
+        "event_title": "미국 반도체 관세 우려로 삼성전자와 SK하이닉스 동반 약세",
+        "event_type": "regulation",
+        "impact_direction": "negative",
+        "injection_dates": [
+          "2025-04-04",
+          "2025-04-07",
+          "2025-04-08"
+        ],
+        "injection_start_date": "2025-04-04",
+        "injection_end_date": "2025-04-08"
+      },
+      {
+        "event_id": "event_20250408_73d544f2",
+        "event_date": "2025-04-08",
+        "event_title": "삼성전자 1분기 깜짝 실적과 갤럭시 효과",
+        "event_type": "earnings",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-04-04",
+          "2025-04-07",
+          "2025-04-08",
+          "2025-04-09",
+          "2025-04-10"
+        ],
+        "injection_start_date": "2025-04-04",
+        "injection_end_date": "2025-04-10"
+      },
+      {
+        "event_id": "event_20250411_553de1cb",
+        "event_date": "2025-04-11",
+        "event_title": "엔비디아 승인 기대와 삼성 반도체 인력 강화",
+        "event_type": "hbm",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-04-11",
+          "2025-04-14",
+          "2025-04-15"
+        ],
+        "injection_start_date": "2025-04-11",
+        "injection_end_date": "2025-04-15"
+      },
+      {
+        "event_id": "event_20250502_afeb136c",
+        "event_date": "2025-05-02",
+        "event_title": "삼성 1분기 실적 이후 커스텀 HBM 반전 기대",
+        "event_type": "earnings",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2025-04-29",
+          "2025-04-30",
+          "2025-05-02",
+          "2025-05-07",
+          "2025-05-08"
+        ],
+        "injection_start_date": "2025-04-29",
+        "injection_end_date": "2025-05-08"
+      },
+      {
+        "event_id": "event_20250512_b814ba57",
+        "event_date": "2025-05-12",
+        "event_title": "관세 불확실성 완화와 용인 반도체 클러스터 기대",
+        "event_type": "capex",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-05-08",
+          "2025-05-09",
+          "2025-05-12",
+          "2025-05-13",
+          "2025-05-14"
+        ],
+        "injection_start_date": "2025-05-08",
+        "injection_end_date": "2025-05-14"
+      },
+      {
+        "event_id": "event_20250528_5bb95e9c",
+        "event_date": "2025-05-28",
+        "event_title": "엔비디아 실적 발표 전후 삼성 HBM 기대 재부각",
+        "event_type": "hbm",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-05-28",
+          "2025-05-29",
+          "2025-05-30"
+        ],
+        "injection_start_date": "2025-05-28",
+        "injection_end_date": "2025-05-30"
+      },
+      {
+        "event_id": "event_20250604_2489bc39",
+        "event_date": "2025-06-04",
+        "event_title": "SK하이닉스 D램 점유율 1위와 삼성 경쟁력 우려",
+        "event_type": "competitor_issue",
+        "impact_direction": "negative",
+        "injection_dates": [
+          "2025-06-04",
+          "2025-06-05",
+          "2025-06-09"
+        ],
+        "injection_start_date": "2025-06-04",
+        "injection_end_date": "2025-06-09"
+      },
+      {
+        "event_id": "event_20250605_966f4caa",
+        "event_date": "2025-06-05",
+        "event_title": "미국 반도체 보조금 재협상 가능성과 정책 리스크",
+        "event_type": "regulation",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2025-06-05",
+          "2025-06-09",
+          "2025-06-10"
+        ],
+        "injection_start_date": "2025-06-05",
+        "injection_end_date": "2025-06-10"
+      },
+      {
+        "event_id": "event_20250624_d91c5be8",
+        "event_date": "2025-06-24",
+        "event_title": "반도체 업황 회복 기대와 삼성 위기론 동시 부각",
+        "event_type": "semiconductor_cycle",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2025-06-24",
+          "2025-06-25",
+          "2025-06-26"
+        ],
+        "injection_start_date": "2025-06-24",
+        "injection_end_date": "2025-06-26"
+      },
+      {
+        "event_id": "event_20250703_fb587a90",
+        "event_date": "2025-07-03",
+        "event_title": "6월 수출 서프라이즈와 HBM 장비 생산 기대",
+        "event_type": "export",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-07-01",
+          "2025-07-02",
+          "2025-07-03",
+          "2025-07-04",
+          "2025-07-07"
+        ],
+        "injection_start_date": "2025-07-01",
+        "injection_end_date": "2025-07-07"
+      },
+      {
+        "event_id": "event_20250715_e9a9d7e9",
+        "event_date": "2025-07-15",
+        "event_title": "엔비디아 H20 중국 수출 허용과 AI 반도체 심리 개선",
+        "event_type": "regulation",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-07-15",
+          "2025-07-16",
+          "2025-07-17"
+        ],
+        "injection_start_date": "2025-07-15",
+        "injection_end_date": "2025-07-17"
+      },
+      {
+        "event_id": "event_20250728_fb3ec387",
+        "event_date": "2025-07-28",
+        "event_title": "테슬라 23조 차세대 칩 계약과 이재용 무죄 확정",
+        "event_type": "foundry",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-07-28",
+          "2025-07-29",
+          "2025-07-30"
+        ],
+        "injection_start_date": "2025-07-28",
+        "injection_end_date": "2025-07-30"
+      },
+      {
+        "event_id": "event_20250801_8e6df148",
+        "event_date": "2025-08-01",
+        "event_title": "삼성 반도체 영업이익 충격과 테슬라 수주 반전 기대",
+        "event_type": "earnings",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2025-07-30",
+          "2025-07-31",
+          "2025-08-01",
+          "2025-08-04",
+          "2025-08-05"
+        ],
+        "injection_start_date": "2025-07-30",
+        "injection_end_date": "2025-08-05"
+      },
+      {
+        "event_id": "event_20250807_cf9da608",
+        "event_date": "2025-08-07",
+        "event_title": "트럼프 반도체 100퍼센트 관세 발언",
+        "event_type": "regulation",
+        "impact_direction": "negative",
+        "injection_dates": [
+          "2025-08-07",
+          "2025-08-08",
+          "2025-08-11"
+        ],
+        "injection_start_date": "2025-08-07",
+        "injection_end_date": "2025-08-11"
+      },
+      {
+        "event_id": "event_20250828_1a3206a4",
+        "event_date": "2025-08-28",
+        "event_title": "엔비디아 급락과 삼성 AI 경쟁력 우려",
+        "event_type": "semiconductor_cycle",
+        "impact_direction": "negative",
+        "injection_dates": [
+          "2025-08-28",
+          "2025-08-29",
+          "2025-09-01"
+        ],
+        "injection_start_date": "2025-08-28",
+        "injection_end_date": "2025-09-01"
+      },
+      {
+        "event_id": "event_20250912_9ab2beba",
+        "event_date": "2025-09-12",
+        "event_title": "삼성전자와 SK하이닉스 HBM4 양산 체제 진입",
+        "event_type": "hbm",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-09-10",
+          "2025-09-11",
+          "2025-09-12",
+          "2025-09-15",
+          "2025-09-16"
+        ],
+        "injection_start_date": "2025-09-10",
+        "injection_end_date": "2025-09-16"
+      },
+      {
+        "event_id": "event_20250918_510ceba3",
+        "event_date": "2025-09-18",
+        "event_title": "중국의 엔비디아 압박과 K반도체 반사 기대",
+        "event_type": "regulation",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-09-18",
+          "2025-09-19",
+          "2025-09-22"
+        ],
+        "injection_start_date": "2025-09-18",
+        "injection_end_date": "2025-09-22"
+      },
+      {
+        "event_id": "event_20250923_f2519661",
+        "event_date": "2025-09-23",
+        "event_title": "엔비디아와 오픈AI 칩 수요 확대 속 HBM4 경쟁",
+        "event_type": "hbm",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-09-19",
+          "2025-09-22",
+          "2025-09-23",
+          "2025-09-24",
+          "2025-09-25"
+        ],
+        "injection_start_date": "2025-09-19",
+        "injection_end_date": "2025-09-25"
+      },
+      {
+        "event_id": "event_20251001_dc871480",
+        "event_date": "2025-10-01",
+        "event_title": "삼성 SK와 오픈AI 차세대 AI 데이터센터 협력",
+        "event_type": "customer_issue",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-10-01",
+          "2025-10-02",
+          "2025-10-10"
+        ],
+        "injection_start_date": "2025-10-01",
+        "injection_end_date": "2025-10-10"
+      },
+      {
+        "event_id": "event_20251014_3cb838d9",
+        "event_date": "2025-10-14",
+        "event_title": "삼성전자 메모리 시장 1위 탈환과 슈퍼사이클 기대",
+        "event_type": "memory_price",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-10-10",
+          "2025-10-13",
+          "2025-10-14",
+          "2025-10-15",
+          "2025-10-16"
+        ],
+        "injection_start_date": "2025-10-10",
+        "injection_end_date": "2025-10-16"
+      },
+      {
+        "event_id": "event_20251031_2e1ef45e",
+        "event_date": "2025-10-31",
+        "event_title": "삼성 AI팩토리 GPU 5만장 투입과 엔비디아 협력",
+        "event_type": "technology",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-10-31",
+          "2025-11-03",
+          "2025-11-04"
+        ],
+        "injection_start_date": "2025-10-31",
+        "injection_end_date": "2025-11-04"
+      },
+      {
+        "event_id": "event_20251105_d6fe233c",
+        "event_date": "2025-11-05",
+        "event_title": "테슬라 수주 기반 삼성 파운드리 부활 기대",
+        "event_type": "foundry",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2025-11-05",
+          "2025-11-06",
+          "2025-11-07"
+        ],
+        "injection_start_date": "2025-11-05",
+        "injection_end_date": "2025-11-07"
+      },
+      {
+        "event_id": "event_20251114_95c54579",
+        "event_date": "2025-11-14",
+        "event_title": "반도체 쇼크와 10만전자 붕괴",
+        "event_type": "semiconductor_cycle",
+        "impact_direction": "negative",
+        "injection_dates": [
+          "2025-11-14",
+          "2025-11-17",
+          "2025-11-18"
+        ],
+        "injection_start_date": "2025-11-14",
+        "injection_end_date": "2025-11-18"
+      },
+      {
+        "event_id": "event_20251121_f1015f4e",
+        "event_date": "2025-11-21",
+        "event_title": "AI 랠리와 D램 품귀 속 반도체 급락 변동성",
+        "event_type": "memory_price",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2025-11-19",
+          "2025-11-20",
+          "2025-11-21",
+          "2025-11-24",
+          "2025-11-25"
+        ],
+        "injection_start_date": "2025-11-19",
+        "injection_end_date": "2025-11-25"
+      },
+      {
+        "event_id": "event_20251217_c37b55c4",
+        "event_date": "2025-12-17",
+        "event_title": "AI 수요 기반 반도체 울트라 사이클 기대",
+        "event_type": "semiconductor_cycle",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-12-15",
+          "2025-12-16",
+          "2025-12-17",
+          "2025-12-18",
+          "2025-12-19"
+        ],
+        "injection_start_date": "2025-12-15",
+        "injection_end_date": "2025-12-19"
+      },
+      {
+        "event_id": "event_20251222_e530efb4",
+        "event_date": "2025-12-22",
+        "event_title": "이재용 HBM4 직접 점검과 기술경쟁력 회복 메시지",
+        "event_type": "hbm",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-12-18",
+          "2025-12-19",
+          "2025-12-22",
+          "2025-12-23",
+          "2025-12-24"
+        ],
+        "injection_start_date": "2025-12-18",
+        "injection_end_date": "2025-12-24"
+      },
+      {
+        "event_id": "event_20251226_56ad5174",
+        "event_date": "2025-12-26",
+        "event_title": "메모리 슈퍼사이클과 삼성전자 사상 최고가 경신",
+        "event_type": "memory_price",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-12-23",
+          "2025-12-24",
+          "2025-12-26",
+          "2025-12-29",
+          "2025-12-30"
+        ],
+        "injection_start_date": "2025-12-23",
+        "injection_end_date": "2025-12-30"
+      },
+      {
+        "event_id": "event_20260102_5bdd5289",
+        "event_date": "2026-01-02",
+        "event_title": "새해 AI 수요와 반도체 투톱 랠리",
+        "event_type": "semiconductor_cycle",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-12-29",
+          "2025-12-30",
+          "2026-01-02",
+          "2026-01-05",
+          "2026-01-06"
+        ],
+        "injection_start_date": "2025-12-29",
+        "injection_end_date": "2026-01-06"
+      },
+      {
+        "event_id": "event_20260105_71f33a97",
+        "event_date": "2026-01-05",
+        "event_title": "삼성전자 4분기 영업이익 기대와 보고서 상향",
+        "event_type": "earnings",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2025-12-30",
+          "2026-01-02",
+          "2026-01-05",
+          "2026-01-06",
+          "2026-01-07"
+        ],
+        "injection_start_date": "2025-12-30",
+        "injection_end_date": "2026-01-07"
+      },
+      {
+        "event_id": "event_20260127_64f50bc4",
+        "event_date": "2026-01-27",
+        "event_title": "삼성전자 엔비디아 HBM4 첫 공급 보도",
+        "event_type": "hbm",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2026-01-23",
+          "2026-01-26",
+          "2026-01-27",
+          "2026-01-28",
+          "2026-01-29"
+        ],
+        "injection_start_date": "2026-01-23",
+        "injection_end_date": "2026-01-29"
+      },
+      {
+        "event_id": "event_20260203_64c2a6d6",
+        "event_date": "2026-02-03",
+        "event_title": "메모리 부족과 삼성전자 시가총액 재평가",
+        "event_type": "memory_price",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2026-01-30",
+          "2026-02-02",
+          "2026-02-03",
+          "2026-02-04",
+          "2026-02-05"
+        ],
+        "injection_start_date": "2026-01-30",
+        "injection_end_date": "2026-02-05"
+      },
+      {
+        "event_id": "event_20260212_257a3481",
+        "event_date": "2026-02-12",
+        "event_title": "삼성전자 HBM4 세계 최초 양산 출하",
+        "event_type": "hbm",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2026-02-10",
+          "2026-02-11",
+          "2026-02-12",
+          "2026-02-13",
+          "2026-02-19"
+        ],
+        "injection_start_date": "2026-02-10",
+        "injection_end_date": "2026-02-19"
+      },
+      {
+        "event_id": "event_20260226_43662e00",
+        "event_date": "2026-02-26",
+        "event_title": "젠슨황 AI 수요 발언과 7세대 HBM 경쟁",
+        "event_type": "hbm",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2026-02-24",
+          "2026-02-25",
+          "2026-02-26",
+          "2026-02-27",
+          "2026-03-03"
+        ],
+        "injection_start_date": "2026-02-24",
+        "injection_end_date": "2026-03-03"
+      },
+      {
+        "event_id": "event_20260304_fedd7f1f",
+        "event_date": "2026-03-04",
+        "event_title": "삼성전자 노사협상 결렬과 성과급 갈등",
+        "event_type": "labor_strike",
+        "impact_direction": "negative",
+        "injection_dates": [
+          "2026-03-04",
+          "2026-03-05",
+          "2026-03-06"
+        ],
+        "injection_start_date": "2026-03-04",
+        "injection_end_date": "2026-03-06"
+      },
+      {
+        "event_id": "event_20260305_50e8c8bc",
+        "event_date": "2026-03-05",
+        "event_title": "젠슨황 최태원 회동과 HBM4 협력 재시동",
+        "event_type": "hbm",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2026-03-05",
+          "2026-03-06",
+          "2026-03-09"
+        ],
+        "injection_start_date": "2026-03-05",
+        "injection_end_date": "2026-03-09"
+      },
+      {
+        "event_id": "event_20260310_cd8c36e2",
+        "event_date": "2026-03-10",
+        "event_title": "삼성전자 HBM 공급 영향과 AMD 네이버 협력 기대",
+        "event_type": "customer_issue",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2026-03-10",
+          "2026-03-11",
+          "2026-03-12"
+        ],
+        "injection_start_date": "2026-03-10",
+        "injection_end_date": "2026-03-12"
+      },
+      {
+        "event_id": "event_20260401_133b1656",
+        "event_date": "2026-04-01",
+        "event_title": "3월 수출 사상 최대와 메모리 초호황",
+        "event_type": "export",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2026-03-30",
+          "2026-03-31",
+          "2026-04-01",
+          "2026-04-02",
+          "2026-04-03"
+        ],
+        "injection_start_date": "2026-03-30",
+        "injection_end_date": "2026-04-03"
+      },
+      {
+        "event_id": "event_20260407_8fbcc430",
+        "event_date": "2026-04-07",
+        "event_title": "삼성전자 1분기 영업이익 57조 보도",
+        "event_type": "earnings",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2026-04-03",
+          "2026-04-06",
+          "2026-04-07",
+          "2026-04-08",
+          "2026-04-09"
+        ],
+        "injection_start_date": "2026-04-03",
+        "injection_end_date": "2026-04-09"
+      },
+      {
+        "event_id": "event_20260430_d56a2e14",
+        "event_date": "2026-04-30",
+        "event_title": "삼성전자 반도체 이익 집중과 파업 보고서 우려",
+        "event_type": "earnings",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2026-04-28",
+          "2026-04-29",
+          "2026-04-30",
+          "2026-05-04",
+          "2026-05-06"
+        ],
+        "injection_start_date": "2026-04-28",
+        "injection_end_date": "2026-05-06"
+      },
+      {
+        "event_id": "event_20260506_22832881",
+        "event_date": "2026-05-06",
+        "event_title": "삼성전자 노조 파업 우려와 증권가 과도한 걱정 평가",
+        "event_type": "labor_strike",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2026-05-06",
+          "2026-05-07",
+          "2026-05-08"
+        ],
+        "injection_start_date": "2026-05-06",
+        "injection_end_date": "2026-05-08"
+      },
+      {
+        "event_id": "event_20260521_3a780b24",
+        "event_date": "2026-05-21",
+        "event_title": "반도체 슈퍼사이클 쏠림과 삼성 성과급 논쟁",
+        "event_type": "labor_strike",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2026-05-21",
+          "2026-05-22",
+          "2026-05-26"
+        ],
+        "injection_start_date": "2026-05-21",
+        "injection_end_date": "2026-05-26"
+      },
+      {
+        "event_id": "event_20260529_ff1e704e",
+        "event_date": "2026-05-29",
+        "event_title": "삼성전자 HBM4E 샘플 세계 최초 출하",
+        "event_type": "hbm",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2026-05-29",
+          "2026-06-01",
+          "2026-06-02"
+        ],
+        "injection_start_date": "2026-05-29",
+        "injection_end_date": "2026-06-02"
+      },
+      {
+        "event_id": "event_20260601_8f1a962a",
+        "event_date": "2026-06-01",
+        "event_title": "메모리 가격 급등과 수출 서프라이즈",
+        "event_type": "memory_price",
+        "impact_direction": "positive",
+        "injection_dates": [
+          "2026-05-28",
+          "2026-05-29",
+          "2026-06-01",
+          "2026-06-02",
+          "2026-06-04"
+        ],
+        "injection_start_date": "2026-05-28",
+        "injection_end_date": "2026-06-04"
+      },
+      {
+        "event_id": "event_20260604_40359fe1",
+        "event_date": "2026-06-04",
+        "event_title": "삼성전자 성과급 갈등과 최대 노조 과반 지위 상실",
+        "event_type": "labor_strike",
+        "impact_direction": "negative",
+        "injection_dates": [
+          "2026-06-04",
+          "2026-06-05",
+          "2026-06-08"
+        ],
+        "injection_start_date": "2026-06-04",
+        "injection_end_date": "2026-06-08"
+      },
+      {
+        "event_id": "event_20260608_c36335d3",
+        "event_date": "2026-06-08",
+        "event_title": "젠슨황 회동 이후 삼성 차세대 추론칩 협력 확대",
+        "event_type": "customer_issue",
+        "impact_direction": "mixed",
+        "injection_dates": [
+          "2026-06-08",
+          "2026-06-09"
+        ],
+        "injection_start_date": "2026-06-08",
+        "injection_end_date": "2026-06-09"
+      }
+    ]
+  }
+}

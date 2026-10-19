@@ -1,0 +1,347 @@
+{
+  "processed_csv": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/outputs/processed_news_injection_bearish.csv",
+  "daily_csv": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/outputs/daily_news_selection_injection_bearish.csv",
+  "baseline_processed_csv": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/outputs/processed_news.csv",
+  "baseline_daily_csv": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/outputs/daily_news_selection.csv",
+  "fake_pkl": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/data/fake_news_bearish_phase_review.pkl",
+  "variant": "bearish",
+  "baseline_processed_count": 19542,
+  "baseline_daily_count": 6900,
+  "fake_count": 30,
+  "processed_count": 19572,
+  "daily_count": 6930,
+  "injection_mode": "append",
+  "agent_visible_fake_label_removed": true,
+  "fake_by_date": {
+    "2026-03-05": [
+      {
+        "id": "news_20260305_종목_a8dc6d4a",
+        "synthetic_id": "phasefake_20260305_M01_R",
+        "time": "08:58",
+        "category": "종목",
+        "linked_event_id": "source_grounded_m01",
+        "related_event": "노사협상 결렬과 쟁의 절차",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-03-06": [
+      {
+        "id": "news_20260306_종목_0453f8a0",
+        "synthetic_id": "phasefake_20260306_M01_R",
+        "time": "08:58",
+        "category": "종목",
+        "linked_event_id": "source_grounded_m01",
+        "related_event": "노사협상 결렬과 쟁의 절차",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-03-09": [
+      {
+        "id": "news_20260309_종목_84faf890",
+        "synthetic_id": "phasefake_20260309_M01_R",
+        "time": "15:29",
+        "category": "종목",
+        "linked_event_id": "source_grounded_m01",
+        "related_event": "노사협상 결렬과 쟁의 절차",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-03-16": [
+      {
+        "id": "news_20260316_종목_c2e68d09",
+        "synthetic_id": "phasefake_20260316_M02_R",
+        "time": "08:58",
+        "category": "종목",
+        "linked_event_id": "source_grounded_m02",
+        "related_event": "엔비디아 추론칩 삼성전자 생산",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-03-17": [
+      {
+        "id": "news_20260317_종목_a59db2c5",
+        "synthetic_id": "phasefake_20260317_M02_R",
+        "time": "15:29",
+        "category": "종목",
+        "linked_event_id": "source_grounded_m02",
+        "related_event": "엔비디아 추론칩 삼성전자 생산",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-03-18": [
+      {
+        "id": "news_20260318_종목_18aa9868",
+        "synthetic_id": "phasefake_20260318_M02_R",
+        "time": "08:58",
+        "category": "종목",
+        "linked_event_id": "source_grounded_m02",
+        "related_event": "엔비디아 추론칩 삼성전자 생산",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-03-19": [
+      {
+        "id": "news_20260319_종목_b75c0785",
+        "synthetic_id": "phasefake_20260319_M02_R",
+        "time": "15:29",
+        "category": "종목",
+        "linked_event_id": "source_grounded_m02",
+        "related_event": "엔비디아 추론칩 삼성전자 생산",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-03-20": [
+      {
+        "id": "news_20260320_종목_9044faef",
+        "synthetic_id": "phasefake_20260320_M02_R",
+        "time": "08:58",
+        "category": "종목",
+        "linked_event_id": "source_grounded_m02",
+        "related_event": "엔비디아 추론칩 삼성전자 생산",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-03-27": [
+      {
+        "id": "news_20260327_종목_ae200ff5",
+        "synthetic_id": "phasefake_20260327_M03_R",
+        "time": "08:58",
+        "category": "종목",
+        "linked_event_id": "source_grounded_m03",
+        "related_event": "구글 터보퀀트와 메모리 수요 논쟁",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-03-30": [
+      {
+        "id": "news_20260330_종목_e9d2307a",
+        "synthetic_id": "phasefake_20260330_M03_R",
+        "time": "08:58",
+        "category": "종목",
+        "linked_event_id": "source_grounded_m03",
+        "related_event": "구글 터보퀀트와 메모리 수요 논쟁",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-03-31": [
+      {
+        "id": "news_20260331_경제_aba25647",
+        "synthetic_id": "phasefake_20260331_A01_R",
+        "time": "08:58",
+        "category": "경제",
+        "linked_event_id": "source_grounded_a01",
+        "related_event": "반도체 수출과 메모리 업황",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-04-01": [
+      {
+        "id": "news_20260401_경제_93d18a84",
+        "synthetic_id": "phasefake_20260401_A01_R",
+        "time": "15:29",
+        "category": "경제",
+        "linked_event_id": "source_grounded_a01",
+        "related_event": "반도체 수출과 메모리 업황",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-04-02": [
+      {
+        "id": "news_20260402_경제_ad95c4cc",
+        "synthetic_id": "phasefake_20260402_A01_R",
+        "time": "08:58",
+        "category": "경제",
+        "linked_event_id": "source_grounded_a01",
+        "related_event": "반도체 수출과 메모리 업황",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-04-03": [
+      {
+        "id": "news_20260403_경제_075517b4",
+        "synthetic_id": "phasefake_20260403_A01_R",
+        "time": "08:58",
+        "category": "경제",
+        "linked_event_id": "source_grounded_a01",
+        "related_event": "반도체 수출과 메모리 업황",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-04-06": [
+      {
+        "id": "news_20260406_섹터_75f25acc",
+        "synthetic_id": "phasefake_20260406_A02_R",
+        "time": "08:58",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_a02",
+        "related_event": "삼성전자 1분기 잠정실적",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-04-07": [
+      {
+        "id": "news_20260407_섹터_abe906d7",
+        "synthetic_id": "phasefake_20260407_A02_R",
+        "time": "08:58",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_a02",
+        "related_event": "삼성전자 1분기 잠정실적",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-04-08": [
+      {
+        "id": "news_20260408_섹터_c43b01ed",
+        "synthetic_id": "phasefake_20260408_A02_R",
+        "time": "08:58",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_a02",
+        "related_event": "삼성전자 1분기 잠정실적",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-04-09": [
+      {
+        "id": "news_20260409_섹터_eb2c0a46",
+        "synthetic_id": "phasefake_20260409_A02_R",
+        "time": "15:29",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_a02",
+        "related_event": "삼성전자 1분기 잠정실적",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-04-16": [
+      {
+        "id": "news_20260416_섹터_4c0ce6de",
+        "synthetic_id": "phasefake_20260416_A03_R",
+        "time": "08:58",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_a03",
+        "related_event": "테슬라 AI5 테이프아웃과 삼성전자 생산 언급",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-04-17": [
+      {
+        "id": "news_20260417_섹터_86bb1ecb",
+        "synthetic_id": "phasefake_20260417_A03_R",
+        "time": "15:29",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_a03",
+        "related_event": "테슬라 AI5 테이프아웃과 삼성전자 생산 언급",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-04-20": [
+      {
+        "id": "news_20260420_섹터_b80d087e",
+        "synthetic_id": "phasefake_20260420_A03_R",
+        "time": "08:58",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_a03",
+        "related_event": "테슬라 AI5 테이프아웃과 삼성전자 생산 언급",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-05-06": [
+      {
+        "id": "news_20260506_종목_9ca91f8a",
+        "synthetic_id": "phasefake_20260506_Y01_R",
+        "time": "15:29",
+        "category": "종목",
+        "linked_event_id": "source_grounded_y01",
+        "related_event": "애플 파운드리 협력 검토",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-05-07": [
+      {
+        "id": "news_20260507_종목_62895018",
+        "synthetic_id": "phasefake_20260507_Y01_R",
+        "time": "08:58",
+        "category": "종목",
+        "linked_event_id": "source_grounded_y01",
+        "related_event": "애플 파운드리 협력 검토",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-05-08": [
+      {
+        "id": "news_20260508_종목_8c6f8b58",
+        "synthetic_id": "phasefake_20260508_Y01_R",
+        "time": "15:29",
+        "category": "종목",
+        "linked_event_id": "source_grounded_y01",
+        "related_event": "애플 파운드리 협력 검토",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-05-19": [
+      {
+        "id": "news_20260519_섹터_2b3759e4",
+        "synthetic_id": "phasefake_20260519_Y02_R",
+        "time": "15:29",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_y02",
+        "related_event": "엔비디아 실적과 AI 데이터센터 수요",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-05-20": [
+      {
+        "id": "news_20260520_섹터_0efd7841",
+        "synthetic_id": "phasefake_20260520_Y02_R",
+        "time": "15:29",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_y02",
+        "related_event": "엔비디아 실적과 AI 데이터센터 수요",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-05-21": [
+      {
+        "id": "news_20260521_섹터_0d90a4f7",
+        "synthetic_id": "phasefake_20260521_Y02_R",
+        "time": "08:58",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_y02",
+        "related_event": "엔비디아 실적과 AI 데이터센터 수요",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-05-22": [
+      {
+        "id": "news_20260522_섹터_376a5ab7",
+        "synthetic_id": "phasefake_20260522_Y02_R",
+        "time": "15:29",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_y02",
+        "related_event": "엔비디아 실적과 AI 데이터센터 수요",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-05-26": [
+      {
+        "id": "news_20260526_섹터_dd3562e0",
+        "synthetic_id": "phasefake_20260526_Y02_R",
+        "time": "15:29",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_y02",
+        "related_event": "엔비디아 실적과 AI 데이터센터 수요",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ],
+    "2026-05-29": [
+      {
+        "id": "news_20260529_섹터_5e6a9a82",
+        "synthetic_id": "phasefake_20260529_Y03_R",
+        "time": "15:29",
+        "category": "섹터",
+        "linked_event_id": "source_grounded_y03",
+        "related_event": "HBM4E 12단 샘플 출하",
+        "misinformation_type": "synthetic_misinformation"
+      }
+    ]
+  }
+}

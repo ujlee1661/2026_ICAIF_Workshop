@@ -1,0 +1,22 @@
+{
+  "count": 100,
+  "cash": {
+    "100000000": 73,
+    "1000000000": 27
+  },
+  "news_depth": {
+    "1": 55,
+    "0": 30,
+    "2": 15
+  },
+  "community_post_permission": {
+    "1": 70,
+    "0": 30
+  },
+  "distribution_pass": true,
+  "prompt_errors": [],
+  "invalid_community_post_permission_agents": [],
+  "segment_avg_scores": {
+    "미사용": 0.0
+  }
+}

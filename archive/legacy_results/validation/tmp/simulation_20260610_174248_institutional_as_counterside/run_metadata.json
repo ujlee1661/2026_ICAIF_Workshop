@@ -1,0 +1,39 @@
+{
+  "run_id": "simulation_20260610_174248",
+  "created_at": "20260610_174248",
+  "max_agents": 10,
+  "max_days": null,
+  "concurrency": 4,
+  "agent_count": 10,
+  "date_count": 15,
+  "sim_db": "/Users/leeyujeong/Downloads/MD_File/twinmarket_kr_project/outputs/sim.db",
+  "random_agents": false,
+  "random_seed": 20260610,
+  "start_date": "2025-02-11",
+  "end_date": "2025-03-04",
+  "balanced_depths": true,
+  "agent_ids": [
+    "A006",
+    "A007",
+    "A050",
+    "A052",
+    "A053",
+    "A056",
+    "A065",
+    "A077",
+    "A088",
+    "A097"
+  ],
+  "agent_depths": {
+    "A006": 1,
+    "A007": 0,
+    "A050": 0,
+    "A052": 1,
+    "A053": 0,
+    "A056": 1,
+    "A065": 0,
+    "A077": 2,
+    "A088": 2,
+    "A097": 2
+  }
+}
