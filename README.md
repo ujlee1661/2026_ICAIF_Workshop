@@ -4,6 +4,8 @@
 실제뉴스와 커뮤니티 노출에 따른 거래 행동을 비교하고, 동일한 사전 상태에서
 일반·개인화 Advisor 조언의 효과를 비교합니다.
 
+논문: [Can Personalized Advice Improve Investor Behavior? Evidence from a Multi-Agent Simulation of Retail Investors](outputs/Can%20Personalized%20Advice%20Improve%20Investor%20Behavior%3F.pdf)
+
 > 문서 확인일: 2026-10-19. 현재 코드, 봉인 입력, 보존된 실행 메타데이터를
 > 기준으로 작성했습니다. 입력 profile의 전체 기간과 개별 run의 완료 범위는
 > 서로 다르므로, 결과는 각 run의 완료·검증 기록과 함께 확인합니다.
